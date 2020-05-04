@@ -1097,19 +1097,4 @@ F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 5200 5200 60  0001 C CNN "Description"
 	1    5200 6000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switches:DIP_SW_3 SW101
-U 1 1 5EBDE940
-P 6750 1050
-F 0 "SW101" H 6750 1431 60  0000 C CNN
-F 1 "DIP_SW_3" H 6750 600 60  0001 C CNN
-F 2 "Switches:416131160803" H 6750 700 60  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/4161311608xx.pdf" H 6850 800 60  0001 C CNN
-F 4 "Digikey" H 6900 450 60  0001 C CNN "Supplier"
-F 5 "732-3853-1-ND " H 7100 350 60  0001 C CNN "Digi Key Part Number"
-F 6 "SWITCH SLIDE DIP SPST 25MA 24V" H 7500 250 60  0001 C CNN "Description"
-F 7 "4.83000" H 6950 150 60  0001 C CNN "Price"
-	1    6750 1050
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
