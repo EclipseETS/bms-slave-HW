@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Slave-cache
 EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -91,9 +92,9 @@ F 3 "" H 3580 4310 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 4000 3600 4300
+	3600 4000 3600 4100
 Wire Wire Line
-	3900 3700 5900 3700
+	3900 3700 4200 3700
 Wire Wire Line
 	4800 3700 4800 3600
 Wire Wire Line
@@ -137,9 +138,9 @@ F 11 "25V" H 4150 3710 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3000 4100 3000 4300
+	3000 4100 3000 4200
 Wire Wire Line
-	3000 4200 3600 4200
+	3000 4200 3300 4200
 Connection ~ 3600 4200
 Wire Wire Line
 	3600 4100 4200 4100
@@ -328,7 +329,7 @@ Wire Wire Line
 	4400 4100 4400 3700
 Connection ~ 4400 3700
 Wire Wire Line
-	1000 3700 1500 3700
+	1000 3700 1300 3700
 $Comp
 L Resistors:RC0805JR-07470RL R303
 U 1 1 58F8EBE0
@@ -479,9 +480,9 @@ F 12 "Fuse Holder" H 1700 2600 60  0001 C CNN "Fuse Holder"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 3700 3300 3700
+	1900 3700 2000 3700
 Wire Wire Line
-	6500 3600 7700 3600
+	6500 3600 6600 3600
 $Comp
 L Power_Port:12V #PWR0302
 U 1 1 58FEC80D
@@ -558,7 +559,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 3500 7800 3600
 Wire Wire Line
-	7800 3600 8500 3600
+	7800 3600 8200 3600
 Wire Wire Line
 	8200 3600 8200 3500
 Connection ~ 8200 3600
@@ -636,4 +637,48 @@ F 8 "TEST POINT PC MINI .040\"D BLACK" H 7300 2500 60  0001 C CNN "Description"
 	1    7300 3300
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	3600 4200 3600 4300
+Wire Wire Line
+	3600 4100 3600 4200
+Wire Wire Line
+	4200 3700 4400 3700
+Wire Wire Line
+	3000 3700 3300 3700
+Wire Wire Line
+	5700 3700 5900 3700
+Wire Wire Line
+	6600 3600 6800 3600
+Wire Wire Line
+	6800 3600 7000 3600
+Wire Wire Line
+	7000 3600 7100 3600
+Wire Wire Line
+	1300 3700 1500 3700
+Wire Wire Line
+	3300 4200 3600 4200
+Wire Wire Line
+	4400 3700 4800 3700
+Wire Wire Line
+	7500 3600 7700 3600
+Wire Wire Line
+	2600 3700 2800 3700
+Wire Wire Line
+	2800 3700 3000 3700
+Wire Wire Line
+	3000 4200 3000 4300
+Wire Wire Line
+	2000 3700 2300 3700
+Wire Wire Line
+	2300 3700 2600 3700
+Wire Wire Line
+	7100 3600 7300 3600
+Wire Wire Line
+	8200 3600 8500 3600
+Wire Wire Line
+	4800 3700 5000 3700
+Wire Wire Line
+	5000 3700 5700 3700
+Wire Wire Line
+	7300 3600 7500 3600
 $EndSCHEMATC

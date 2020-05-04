@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Slave-cache
 EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -61,7 +62,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 3800 3100 3800
 Wire Wire Line
-	1700 4000 3100 4000
+	1700 4000 1800 4000
 Connection ~ 1800 4000
 Wire Wire Line
 	1800 4100 1800 4000
@@ -87,7 +88,7 @@ $EndComp
 Wire Wire Line
 	2900 3400 2800 3400
 Wire Wire Line
-	2900 2900 2900 3800
+	2900 2900 2900 3000
 Connection ~ 2900 3400
 $Comp
 L Power_Port:DGND #PWR0402
@@ -127,7 +128,7 @@ Connection ~ 2900 3000
 Wire Wire Line
 	2500 3000 2400 3000
 Wire Wire Line
-	2400 3000 2400 3500
+	2400 3000 2400 3400
 Connection ~ 2400 3400
 $Comp
 L Diodes:D1213A-02SOL-7 D402
@@ -229,23 +230,23 @@ Wire Wire Line
 Wire Wire Line
 	6300 3200 6300 3300
 Wire Wire Line
-	5300 5100 6400 5100
+	5300 5100 5600 5100
 Wire Wire Line
-	5400 4900 6400 4900
+	5400 4900 6000 4900
 Wire Wire Line
 	5400 4000 5400 4900
 Wire Wire Line
-	3800 4000 5400 4000
+	3800 4000 4200 4000
 Wire Wire Line
-	3800 4200 5300 4200
+	3800 4200 4200 4200
 Wire Wire Line
 	5300 4200 5300 5100
 Wire Wire Line
-	5100 2500 6500 2500
+	5100 2500 5700 2500
 Wire Wire Line
 	5700 2500 5700 2900
 Wire Wire Line
-	5200 2700 6500 2700
+	5200 2700 6200 2700
 Wire Wire Line
 	6300 2700 6300 2900
 Wire Wire Line
@@ -452,22 +453,6 @@ Wire Wire Line
 Connection ~ 6300 2500
 Connection ~ 6200 2700
 $Comp
-L Connectors:649006227222 J401
-U 1 1 593E0605
-P 7100 1900
-F 0 "J401" H 7100 2200 60  0000 C CNN
-F 1 "649006227222" H 7100 1750 60  0000 C CNN
-F 2 "Connectors:649006227222" H 7100 1000 60  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/649006227222.pdf" H 7100 900 60  0001 C CNN
-F 4 "Digikey" H 7100 1500 60  0001 C CNN "Supplier"
-F 5 "732-1939-ND" H 7100 1400 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 7100 1300 60  0001 C CNN "Manufacturer"
-F 7 "649006227222" H 7100 1200 60  0001 C CNN "Manufacturer Part Number"
-F 8 "HEADER MALE DUAL ANGLE W/MNT 6P" H 7100 1100 60  0001 C CNN "Description"
-	1    7100 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Resistors:RC0805JR-070RL R403
 U 1 1 593E067F
 P 8000 1800
@@ -549,22 +534,6 @@ F 3 "" H 7500 4000 60  0000 C CNN
 $EndComp
 Text Label 6500 4300 0    60   ~ 0
 CAN_N
-$Comp
-L Connectors:649006227222 J402
-U 1 1 593E12E2
-P 7100 4300
-F 0 "J402" H 7100 4600 60  0000 C CNN
-F 1 "649006227222" H 7100 4150 60  0000 C CNN
-F 2 "Connectors:649006227222" H 7100 3400 60  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/649006227222.pdf" H 7100 3300 60  0001 C CNN
-F 4 "Digikey" H 7100 3900 60  0001 C CNN "Supplier"
-F 5 "732-1939-ND" H 7100 3800 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 7100 3700 60  0001 C CNN "Manufacturer"
-F 7 "649006227222" H 7100 3600 60  0001 C CNN "Manufacturer Part Number"
-F 8 "HEADER MALE DUAL ANGLE W/MNT 6P" H 7100 3500 60  0001 C CNN "Description"
-	1    7100 4300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Resistors:RC0805JR-070RL R404
 U 1 1 593E12F0
@@ -760,7 +729,79 @@ F 11 "1/8W" H 2800 4060 50  0001 C CNN "Puissance (Watts)"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 4200 2600 4200
+	2300 4200 2500 4200
 Wire Wire Line
 	3000 4200 3100 4200
+Wire Wire Line
+	1800 4000 1900 4000
+Wire Wire Line
+	2900 3400 2900 3800
+Wire Wire Line
+	2900 3000 2900 3400
+Wire Wire Line
+	2400 3400 2400 3500
+Wire Wire Line
+	5200 4200 5300 4200
+Wire Wire Line
+	6300 2700 6500 2700
+Wire Wire Line
+	5700 2500 6300 2500
+Wire Wire Line
+	5100 4000 5400 4000
+Wire Wire Line
+	4400 4000 5100 4000
+Wire Wire Line
+	4800 4200 5200 4200
+Wire Wire Line
+	4200 4200 4800 4200
+Wire Wire Line
+	4200 4000 4400 4000
+Wire Wire Line
+	1900 4000 3100 4000
+Wire Wire Line
+	2500 4200 2600 4200
+Wire Wire Line
+	5600 5100 6100 5100
+Wire Wire Line
+	6100 5100 6400 5100
+Wire Wire Line
+	6200 4900 6400 4900
+Wire Wire Line
+	6300 2500 6500 2500
+Wire Wire Line
+	6200 2700 6300 2700
+Wire Wire Line
+	6000 4900 6200 4900
+$Comp
+L Connectors:64900621122 J401
+U 1 1 5EB2172E
+P 7100 1900
+F 0 "J401" H 7100 2337 60  0000 C CNN
+F 1 "64900621122" H 7100 2231 60  0000 C CNN
+F 2 "Connectors:64900621122" H 7100 1000 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/6490xx21122.pdf" H 7100 900 60  0001 C CNN
+F 4 "Digikey" H 7100 1500 60  0001 C CNN "Supplier"
+F 5 "732-1929-ND" H 7100 1400 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 7100 1300 60  0001 C CNN "Manufacturer"
+F 7 "64900621122" H 7100 1200 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE 4.20MM DUAL VERT 6P" H 7100 1100 60  0001 C CNN "Description"
+	1    7100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connectors:64900621122 J402
+U 1 1 5EB22637
+P 7100 4300
+F 0 "J402" H 7100 4737 60  0000 C CNN
+F 1 "64900621122" H 7100 4631 60  0000 C CNN
+F 2 "Connectors:64900621122" H 7100 3400 60  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/6490xx21122.pdf" H 7100 3300 60  0001 C CNN
+F 4 "Digikey" H 7100 3900 60  0001 C CNN "Supplier"
+F 5 "732-1929-ND" H 7100 3800 60  0001 C CNN "Supplier Part Number"
+F 6 "Wurth Electronics Inc." H 7100 3700 60  0001 C CNN "Manufacturer"
+F 7 "64900621122" H 7100 3600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "HEADER MALE 4.20MM DUAL VERT 6P" H 7100 3500 60  0001 C CNN "Description"
+	1    7100 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
