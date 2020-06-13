@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 13 28
+Sheet 5 28
 Title "Isolated BMS Slave Front End"
 Date ""
 Rev "1.2"
@@ -28,7 +28,7 @@ AR Path="/593FF1B1/591B47DF" Ref="Q1701"  Part="1"
 AR Path="/593FF93E/591B47DF" Ref="Q2101"  Part="1" 
 AR Path="/59400152/591B47DF" Ref="Q2501"  Part="1" 
 AR Path="/59400D56/591B47DF" Ref="Q2901"  Part="1" 
-F 0 "Q1301" V 3300 1300 60  0000 C CNN
+F 0 "Q501" V 3300 1300 60  0000 C CNN
 F 1 "CPH6347-TL-W" V 3200 1200 60  0000 C CNN
 F 2 "IC:TSOT-23-6" H 3000 400 60  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/CPH6347-D.PDF" H 3000 300 60  0001 C CNN
@@ -75,7 +75,7 @@ $EndSheet
 Text Label 1100 4500 0    60   ~ 0
 CELL_Voltage
 $Comp
-L Slave-rescue:SI8641AB-B-IS1-Isolators U502
+L Slave-rescue:SI8641AB-B-IS1-Isolators-Slave-rescue U502
 U 1 1 591D60B1
 P 6200 4600
 AR Path="/5938E2BF/591D60B1" Ref="U502"  Part="1" 
@@ -89,7 +89,7 @@ AR Path="/593FF93E/591D60B1" Ref="U2102"  Part="1"
 AR Path="/59400152/591D60B1" Ref="U2502"  Part="1" 
 AR Path="/59400D56/591D60B1" Ref="U2902"  Part="1" 
 AR Path="/591D60B1" Ref="U502"  Part="1" 
-F 0 "U1302" H 6200 5400 60  0000 C CNN
+F 0 "U502" H 6200 5400 60  0000 C CNN
 F 1 "SI8641AB-B-IS1" H 6200 3750 60  0000 C CNN
 F 2 "IC:SOIC-16" H 6200 2800 60  0001 C CNN
 F 3 "http://www.silabs.com/documents/public/data-sheets/Si86xx.pdf" H 6200 2700 60  0001 C CNN
@@ -102,7 +102,7 @@ F 8 "DGTL ISO 2.5KV GEN PURP 16SOIC" H 6200 2900 60  0001 C CNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Capacitors:885012207098 C502
+L Capacitors:885012206095 C502
 U 1 1 591D614C
 P 7100 3900
 AR Path="/5938E2BF/591D614C" Ref="C502"  Part="1" 
@@ -115,15 +115,15 @@ AR Path="/593FF1B1/591D614C" Ref="C1702"  Part="1"
 AR Path="/593FF93E/591D614C" Ref="C2102"  Part="1" 
 AR Path="/59400152/591D614C" Ref="C2502"  Part="1" 
 AR Path="/59400D56/591D614C" Ref="C2902"  Part="1" 
-F 0 "C1302" H 7050 4060 60  0000 C CNN
-F 1 "885012207098" H 7050 3550 60  0001 C CNN
-F 2 "Capacitors:C0805" H 7050 2950 60  0001 C CNN
-F 3 "D" H 7050 2850 60  0001 C CNN
+F 0 "C502" H 7050 4060 60  0000 C CNN
+F 1 "885012206095" H 7050 3550 60  0001 C CNN
+F 2 "Capacitors:C0603" H 7050 2950 60  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206095.pdf" H 7050 2850 60  0001 C CNN
 F 4 "Digikey" H 7050 3450 60  0001 C CNN "Supplier"
-F 5 "732-8080-1-ND" H 7050 3350 60  0001 C CNN "Supplier Part Number"
+F 5 "732-8013-2-ND" H 7050 3350 60  0001 C CNN "Supplier Part Number"
 F 6 "Wurth Electronics Inc." H 7050 3250 60  0001 C CNN "Manufacturer"
-F 7 "885012207098" H 7050 3150 60  0001 C CNN "Manufacturer Part Number"
-F 8 "CAP CER 0.1UF 50V X7R 0805" H 7050 3050 60  0001 C CNN "Description"
+F 7 "885012206095" H 7050 3150 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 0.1UF 50V X7R 0603" H 7050 3050 60  0001 C CNN "Description"
 F 9 "100nF" H 7050 3780 50  0000 C CNN "Capacitance (Farad)"
 F 10 "±10%" H 7310 3780 50  0001 C CNN "Tolerance (%)"
 F 11 "50V" H 7050 3710 50  0001 C CNN "Voltage Rated (Volt)"
@@ -131,7 +131,7 @@ F 11 "50V" H 7050 3710 50  0001 C CNN "Voltage Rated (Volt)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitors:885012207098 C501
+L Capacitors:885012206095 C501
 U 1 1 591D641D
 P 5400 3900
 AR Path="/5938E2BF/591D641D" Ref="C501"  Part="1" 
@@ -144,15 +144,15 @@ AR Path="/593FF1B1/591D641D" Ref="C1701"  Part="1"
 AR Path="/593FF93E/591D641D" Ref="C2101"  Part="1" 
 AR Path="/59400152/591D641D" Ref="C2501"  Part="1" 
 AR Path="/59400D56/591D641D" Ref="C2901"  Part="1" 
-F 0 "C1301" H 5350 4060 60  0000 C CNN
-F 1 "885012207098" H 5350 3550 60  0001 C CNN
-F 2 "Capacitors:C0805" H 5350 2950 60  0001 C CNN
-F 3 "D" H 5350 2850 60  0001 C CNN
+F 0 "C501" H 5350 4060 60  0000 C CNN
+F 1 "885012206095" H 5350 3550 60  0001 C CNN
+F 2 "Capacitors:C0603" H 5350 2950 60  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206095.pdf" H 5350 2850 60  0001 C CNN
 F 4 "Digikey" H 5350 3450 60  0001 C CNN "Supplier"
-F 5 "732-8080-1-ND" H 5350 3350 60  0001 C CNN "Supplier Part Number"
+F 5 "732-8013-2-ND" H 5350 3350 60  0001 C CNN "Supplier Part Number"
 F 6 "Wurth Electronics Inc." H 5350 3250 60  0001 C CNN "Manufacturer"
-F 7 "885012207098" H 5350 3150 60  0001 C CNN "Manufacturer Part Number"
-F 8 "CAP CER 0.1UF 50V X7R 0805" H 5350 3050 60  0001 C CNN "Description"
+F 7 "885012206095" H 5350 3150 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 0.1UF 50V X7R 0603" H 5350 3050 60  0001 C CNN "Description"
 F 9 "100nF" H 5350 3780 50  0000 C CNN "Capacitance (Farad)"
 F 10 "±10%" H 5610 3780 50  0001 C CNN "Tolerance (%)"
 F 11 "50V" H 5350 3710 50  0001 C CNN "Voltage Rated (Volt)"
@@ -166,7 +166,7 @@ SDATA_MCU
 Text Label 7800 4700 0    60   ~ 0
 SCLK_MCU
 $Comp
-L Resistors:RC0805JR-074K7L R513
+L Resistors:RC0603JR-074K7L R513
 U 1 1 591D91BB
 P 4700 5300
 AR Path="/5938E2BF/591D91BB" Ref="R513"  Part="1" 
@@ -179,23 +179,23 @@ AR Path="/593FF1B1/591D91BB" Ref="R1713"  Part="1"
 AR Path="/593FF93E/591D91BB" Ref="R2113"  Part="1" 
 AR Path="/59400152/591D91BB" Ref="R2513"  Part="1" 
 AR Path="/59400D56/591D91BB" Ref="R2913"  Part="1" 
-F 0 "R1313" H 4700 5380 60  0000 C CNN
-F 1 "RC0805JR-074K7L" H 4700 5000 50  0001 C CNN
-F 2 "Resistors:R0805" H 4700 4400 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4700 4350 30  0001 C CNN
+F 0 "R513" H 4700 5380 60  0000 C CNN
+F 1 "RC0603JR-074K7L" H 4700 5000 50  0001 C CNN
+F 2 "Resistors:R0603" H 4700 4400 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4700 4350 30  0001 C CNN
 F 4 "Digikey" H 4700 4900 60  0001 C CNN "Supplier"
-F 5 "311-4.7KARCT-ND" H 4700 4800 60  0001 C CNN "Supplier Part Number"
+F 5 "311-4.7KGRTR-ND" H 4700 4800 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 4700 4700 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-074K7L" H 4700 4600 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 4.7K OHM 5% 1/8W 0805" H 4700 4500 60  0001 C CNN "Description"
+F 7 "RC0603JR-074K7L" H 4700 4600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 4.7K OHM 5% 1/10W 0603" H 4700 4500 60  0001 C CNN "Description"
 F 9 "4.7k" H 4700 5230 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 4900 5200 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 4700 5160 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 4700 5160 50  0001 C CNN "Puissance (Watts)"
 	1    4700 5300
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Capacitors:885012207098 C504
+L Capacitors:885012206095 C504
 U 1 1 591D91D0
 P 5000 5500
 AR Path="/5938E2BF/591D91D0" Ref="C504"  Part="1" 
@@ -208,15 +208,15 @@ AR Path="/593FF1B1/591D91D0" Ref="C1704"  Part="1"
 AR Path="/593FF93E/591D91D0" Ref="C2104"  Part="1" 
 AR Path="/59400152/591D91D0" Ref="C2504"  Part="1" 
 AR Path="/59400D56/591D91D0" Ref="C2904"  Part="1" 
-F 0 "C1304" H 4950 5660 60  0000 C CNN
-F 1 "885012207098" H 4950 5150 60  0001 C CNN
-F 2 "Capacitors:C0805" H 4950 4550 60  0001 C CNN
-F 3 "D" H 4950 4450 60  0001 C CNN
+F 0 "C504" H 4950 5660 60  0000 C CNN
+F 1 "885012206095" H 4950 5150 60  0001 C CNN
+F 2 "Capacitors:C0603" H 4950 4550 60  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206095.pdf" H 4950 4450 60  0001 C CNN
 F 4 "Digikey" H 4950 5050 60  0001 C CNN "Supplier"
-F 5 "732-8080-1-ND" H 4950 4950 60  0001 C CNN "Supplier Part Number"
+F 5 "732-8013-2-ND" H 4950 4950 60  0001 C CNN "Supplier Part Number"
 F 6 "Wurth Electronics Inc." H 4950 4850 60  0001 C CNN "Manufacturer"
-F 7 "885012207098" H 4950 4750 60  0001 C CNN "Manufacturer Part Number"
-F 8 "CAP CER 0.1UF 50V X7R 0805" H 4950 4650 60  0001 C CNN "Description"
+F 7 "885012206095" H 4950 4750 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 0.1UF 50V X7R 0603" H 4950 4650 60  0001 C CNN "Description"
 F 9 "100nF" H 4950 5380 50  0000 C CNN "Capacitance (Farad)"
 F 10 "±10%" H 5210 5380 50  0001 C CNN "Tolerance (%)"
 F 11 "50V" H 4950 5310 50  0001 C CNN "Voltage Rated (Volt)"
@@ -349,7 +349,7 @@ AR Path="/593FF1B1/5938F00C" Ref="Q1702"  Part="1"
 AR Path="/593FF93E/5938F00C" Ref="Q2102"  Part="1" 
 AR Path="/59400152/5938F00C" Ref="Q2502"  Part="1" 
 AR Path="/59400D56/5938F00C" Ref="Q2902"  Part="1" 
-F 0 "Q1302" V 4500 1300 60  0000 C CNN
+F 0 "Q502" V 4500 1300 60  0000 C CNN
 F 1 "CPH6347-TL-W" V 4400 1200 60  0000 C CNN
 F 2 "IC:TSOT-23-6" H 4200 400 60  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/CPH6347-D.PDF" H 4200 300 60  0001 C CNN
@@ -392,7 +392,7 @@ BALANCING_PWM
 Text HLabel 9600 2100 2    60   Output ~ 0
 SDATA_MCU
 $Comp
-L Resistors:RC0805JR-074K7L R512
+L Resistors:RC0603JR-074K7L R512
 U 1 1 593917FE
 P 3800 5200
 AR Path="/5938E2BF/593917FE" Ref="R512"  Part="1" 
@@ -405,25 +405,25 @@ AR Path="/593FF1B1/593917FE" Ref="R1712"  Part="1"
 AR Path="/593FF93E/593917FE" Ref="R2112"  Part="1" 
 AR Path="/59400152/593917FE" Ref="R2512"  Part="1" 
 AR Path="/59400D56/593917FE" Ref="R2912"  Part="1" 
-F 0 "R1312" H 3800 5280 60  0000 C CNN
-F 1 "RC0805JR-074K7L" H 3800 4900 50  0001 C CNN
-F 2 "Resistors:R0805" H 3800 4300 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3800 4250 30  0001 C CNN
+F 0 "R512" H 3800 5280 60  0000 C CNN
+F 1 "RC0603JR-074K7L" H 3800 4900 50  0001 C CNN
+F 2 "Resistors:R0603" H 3800 4300 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3800 4250 30  0001 C CNN
 F 4 "Digikey" H 3800 4800 60  0001 C CNN "Supplier"
-F 5 "311-4.7KARCT-ND" H 3800 4700 60  0001 C CNN "Supplier Part Number"
+F 5 "311-4.7KGRTR-ND" H 3800 4700 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 3800 4600 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-074K7L" H 3800 4500 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 4.7K OHM 5% 1/8W 0805" H 3800 4400 60  0001 C CNN "Description"
+F 7 "RC0603JR-074K7L" H 3800 4500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 4.7K OHM 5% 1/10W 0603" H 3800 4400 60  0001 C CNN "Description"
 F 9 "4.7k" H 3800 5130 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 4000 5100 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 3800 5060 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 3800 5060 50  0001 C CNN "Puissance (Watts)"
 	1    3800 5200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3800 5400 3800 5500
 $Comp
-L Resistors:RC0805JR-07100RL R509
+L Resistors:RC0603FR-07100RL R509
 U 1 1 593919F1
 P 4300 4900
 AR Path="/5938E2BF/593919F1" Ref="R509"  Part="1" 
@@ -436,23 +436,23 @@ AR Path="/593FF1B1/593919F1" Ref="R1709"  Part="1"
 AR Path="/593FF93E/593919F1" Ref="R2109"  Part="1" 
 AR Path="/59400152/593919F1" Ref="R2509"  Part="1" 
 AR Path="/59400D56/593919F1" Ref="R2909"  Part="1" 
-F 0 "R1309" H 4300 4980 60  0000 C CNN
-F 1 "RC0805JR-07100RL" H 4300 4600 50  0001 C CNN
-F 2 "Resistors:R0805" H 4300 4000 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4300 3950 30  0001 C CNN
+F 0 "R509" H 4300 4980 60  0000 C CNN
+F 1 "RC0603FR-07100RL" H 4300 4600 50  0001 C CNN
+F 2 "Resistors:R0603" H 4300 4000 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4300 3950 30  0001 C CNN
 F 4 "Digikey" H 4300 4500 60  0001 C CNN "Supplier"
-F 5 "311-100ARCT-ND" H 4300 4400 60  0001 C CNN "Supplier Part Number"
+F 5 "311-100HRTR-ND" H 4300 4400 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 4300 4300 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07100RL" H 4300 4200 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 100 OHM 5% 1/8W 0805" H 4300 4100 60  0001 C CNN "Description"
+F 7 "RC0603FR-07100RL" H 4300 4200 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 100 OHM 1% 1/10W 0603" H 4300 4100 60  0001 C CNN "Description"
 F 9 "100" H 4300 4830 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 4710 4820 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 4300 4760 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 4300 4760 50  0001 C CNN "Puissance (Watts)"
 	1    4300 4900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors:RC0805JR-07100RL R507
+L Resistors:RC0603FR-07100RL R507
 U 1 1 59391AB0
 P 4700 4700
 AR Path="/5938E2BF/59391AB0" Ref="R507"  Part="1" 
@@ -465,23 +465,23 @@ AR Path="/593FF1B1/59391AB0" Ref="R1707"  Part="1"
 AR Path="/593FF93E/59391AB0" Ref="R2107"  Part="1" 
 AR Path="/59400152/59391AB0" Ref="R2507"  Part="1" 
 AR Path="/59400D56/59391AB0" Ref="R2907"  Part="1" 
-F 0 "R1307" H 4700 4780 60  0000 C CNN
-F 1 "RC0805JR-07100RL" H 4700 4400 50  0001 C CNN
-F 2 "Resistors:R0805" H 4700 3800 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4700 3750 30  0001 C CNN
+F 0 "R507" H 4700 4780 60  0000 C CNN
+F 1 "RC0603FR-07100RL" H 4700 4400 50  0001 C CNN
+F 2 "Resistors:R0603" H 4700 3800 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4700 3750 30  0001 C CNN
 F 4 "Digikey" H 4700 4300 60  0001 C CNN "Supplier"
-F 5 "311-100ARCT-ND" H 4700 4200 60  0001 C CNN "Supplier Part Number"
+F 5 "311-100HRTR-ND" H 4700 4200 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 4700 4100 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07100RL" H 4700 4000 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 100 OHM 5% 1/8W 0805" H 4700 3900 60  0001 C CNN "Description"
+F 7 "RC0603FR-07100RL" H 4700 4000 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 100 OHM 1% 1/10W 0603" H 4700 3900 60  0001 C CNN "Description"
 F 9 "100" H 4700 4630 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 5110 4620 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 4700 4560 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 4700 4560 50  0001 C CNN "Puissance (Watts)"
 	1    4700 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors:RC0805JR-07100RL R505
+L Resistors:RC0603FR-07100RL R505
 U 1 1 59391AED
 P 4300 4500
 AR Path="/5938E2BF/59391AED" Ref="R505"  Part="1" 
@@ -494,18 +494,18 @@ AR Path="/593FF1B1/59391AED" Ref="R1705"  Part="1"
 AR Path="/593FF93E/59391AED" Ref="R2105"  Part="1" 
 AR Path="/59400152/59391AED" Ref="R2505"  Part="1" 
 AR Path="/59400D56/59391AED" Ref="R2905"  Part="1" 
-F 0 "R1305" H 4300 4580 60  0000 C CNN
-F 1 "RC0805JR-07100RL" H 4300 4200 50  0001 C CNN
-F 2 "Resistors:R0805" H 4300 3600 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4300 3550 30  0001 C CNN
+F 0 "R505" H 4300 4580 60  0000 C CNN
+F 1 "RC0603FR-07100RL" H 4300 4200 50  0001 C CNN
+F 2 "Resistors:R0603" H 4300 3600 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4300 3550 30  0001 C CNN
 F 4 "Digikey" H 4300 4100 60  0001 C CNN "Supplier"
-F 5 "311-100ARCT-ND" H 4300 4000 60  0001 C CNN "Supplier Part Number"
+F 5 "311-100HRTR-ND" H 4300 4000 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 4300 3900 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07100RL" H 4300 3800 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 100 OHM 5% 1/8W 0805" H 4300 3700 60  0001 C CNN "Description"
+F 7 "RC0603FR-07100RL" H 4300 3800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 100 OHM 1% 1/10W 0603" H 4300 3700 60  0001 C CNN "Description"
 F 9 "100" H 4300 4430 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 4710 4420 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 4300 4360 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 4300 4360 50  0001 C CNN "Puissance (Watts)"
 	1    4300 4500
 	1    0    0    -1  
 $EndComp
@@ -535,7 +535,7 @@ Wire Wire Line
 Text HLabel 9600 2600 2    60   Input ~ 0
 AVDD
 $Comp
-L Slave-rescue:LTV-816S-Isolators U501
+L Slave-rescue:LTV-816S-Isolators-Slave-rescue U501
 U 1 1 59395C7C
 P 4100 2200
 AR Path="/5938E2BF/59395C7C" Ref="U501"  Part="1" 
@@ -549,7 +549,7 @@ AR Path="/593FF93E/59395C7C" Ref="U2101"  Part="1"
 AR Path="/59400152/59395C7C" Ref="U2501"  Part="1" 
 AR Path="/59400D56/59395C7C" Ref="U2901"  Part="1" 
 AR Path="/59395C7C" Ref="U501"  Part="1" 
-F 0 "U1301" H 4100 2500 60  0000 C CNN
+F 0 "U501" H 4100 2500 60  0000 C CNN
 F 1 "LTV-816S" H 4100 2000 60  0000 C CNN
 F 2 "IC:4-SMD" H 4100 1300 60  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTV-816_826_846.pdf" H 4100 1200 60  0001 C CNN
@@ -571,7 +571,7 @@ Wire Wire Line
 	3700 2000 3700 1800
 Connection ~ 3700 1800
 $Comp
-L Resistors:RC0805JR-07330RL R503
+L Resistors:RC0603JR-07330RL R503
 U 1 1 59396188
 P 4700 2000
 AR Path="/5938E2BF/59396188" Ref="R503"  Part="1" 
@@ -584,18 +584,18 @@ AR Path="/593FF1B1/59396188" Ref="R1703"  Part="1"
 AR Path="/593FF93E/59396188" Ref="R2103"  Part="1" 
 AR Path="/59400152/59396188" Ref="R2503"  Part="1" 
 AR Path="/59400D56/59396188" Ref="R2903"  Part="1" 
-F 0 "R1303" H 4700 2080 60  0000 C CNN
-F 1 "RC0805JR-07330RL" H 4700 1700 50  0001 C CNN
-F 2 "Resistors:R0805" H 4700 1100 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4700 1050 30  0001 C CNN
+F 0 "R503" H 4700 2080 60  0000 C CNN
+F 1 "RC0603JR-07330RL" H 4700 1700 50  0001 C CNN
+F 2 "Resistors:R0603" H 4700 1100 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4700 1050 30  0001 C CNN
 F 4 "Digikey" H 4700 1600 60  0001 C CNN "Supplier"
-F 5 "311-330ARCT-ND" H 4700 1500 60  0001 C CNN "Supplier Part Number"
+F 5 "311-330GRTR-ND" H 4700 1500 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 4700 1400 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07330RL" H 4700 1300 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 330 OHM 5% 1/8W 0805" H 4700 1200 60  0001 C CNN "Description"
+F 7 "RC0603JR-07330RL" H 4700 1300 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 330 OHM 5% 1/10W 0603" H 4700 1200 60  0001 C CNN "Description"
 F 9 "330" H 4700 1930 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 5110 1920 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 4700 1860 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 4700 1860 50  0001 C CNN "Puissance (Watts)"
 	1    4700 2000
 	1    0    0    -1  
 $EndComp
@@ -619,7 +619,7 @@ AR Path="/593FF1B1/5939743F" Ref="D1702"  Part="1"
 AR Path="/593FF93E/5939743F" Ref="D2102"  Part="1" 
 AR Path="/59400152/5939743F" Ref="D2502"  Part="1" 
 AR Path="/59400D56/5939743F" Ref="D2902"  Part="1" 
-F 0 "D1302" H 3150 2350 60  0000 C CNN
+F 0 "D502" H 3150 2350 60  0000 C CNN
 F 1 "NSR0530HT1G" H 3200 2050 60  0000 C CNN
 F 2 "Diodes:SOD-323" H 3180 1200 60  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/NSR0530H-D.PDF" H 3180 1100 60  0001 C CNN
@@ -643,7 +643,7 @@ DATA_ENABLE
 Wire Wire Line
 	9600 2500 8700 2500
 $Comp
-L Capacitors:885012207080 C503
+L Capacitors:885012206077 C503
 U 1 1 5939A33B
 P 7700 5300
 AR Path="/5938E2BF/5939A33B" Ref="C503"  Part="1" 
@@ -656,15 +656,15 @@ AR Path="/593FF1B1/5939A33B" Ref="C1703"  Part="1"
 AR Path="/593FF93E/5939A33B" Ref="C2103"  Part="1" 
 AR Path="/59400152/5939A33B" Ref="C2503"  Part="1" 
 AR Path="/59400D56/5939A33B" Ref="C2903"  Part="1" 
-F 0 "C1303" H 7650 5460 60  0000 C CNN
-F 1 "885012207080" H 7650 4950 60  0001 C CNN
-F 2 "Capacitors:C0805" H 7650 4350 60  0001 C CNN
-F 3 "D" H 7650 4250 60  0001 C CNN
+F 0 "C503" H 7650 5460 60  0000 C CNN
+F 1 "885012206077" H 7650 4950 60  0001 C CNN
+F 2 "Capacitors:C0603" H 7650 4350 60  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206077.pdf" H 7650 4250 60  0001 C CNN
 F 4 "Digikey" H 7650 4850 60  0001 C CNN "Supplier"
-F 5 "732-8062-1-ND" H 7650 4750 60  0001 C CNN "Supplier Part Number"
+F 5 "732-7995-2-ND" H 7650 4750 60  0001 C CNN "Supplier Part Number"
 F 6 "Wurth Electronics Inc." H 7650 4650 60  0001 C CNN "Manufacturer"
-F 7 "885012207080" H 7650 4550 60  0001 C CNN "Manufacturer Part Number"
-F 8 "CAP CER 100PF 50V X7R 0805" H 7650 4450 60  0001 C CNN "Description"
+F 7 "885012206077" H 7650 4550 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 100PF 50V X7R 0603" H 7650 4450 60  0001 C CNN "Description"
 F 9 "100pF" H 7650 5180 50  0000 C CNN "Capacitance (Farad)"
 F 10 "±10%" H 7910 5180 50  0001 C CNN "Tolerance (%)"
 F 11 "50V" H 7650 5110 50  0001 C CNN "Voltage Rated (Volt)"
@@ -755,7 +755,7 @@ AGND
 Text Label 9100 2700 0    60   ~ 0
 AGND
 $Comp
-L Resistors:RC0805JR-07470KL R502
+L Resistors:RC0603JR-07470KL R502
 U 1 1 59397104
 P 3500 1500
 AR Path="/5938E2BF/59397104" Ref="R502"  Part="1" 
@@ -768,18 +768,18 @@ AR Path="/593FF1B1/59397104" Ref="R1702"  Part="1"
 AR Path="/593FF93E/59397104" Ref="R2102"  Part="1" 
 AR Path="/59400152/59397104" Ref="R2502"  Part="1" 
 AR Path="/59400D56/59397104" Ref="R2902"  Part="1" 
-F 0 "R1302" H 3500 1580 60  0000 C CNN
-F 1 "RC0805JR-07470KL" H 3500 1200 50  0001 C CNN
-F 2 "Resistors:R0805" H 3500 600 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 3500 550 30  0001 C CNN
+F 0 "R502" H 3500 1580 60  0000 C CNN
+F 1 "RC0603JR-07470KL" H 3500 1200 50  0001 C CNN
+F 2 "Resistors:R0603" H 3500 600 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3500 550 30  0001 C CNN
 F 4 "Digikey" H 3500 1100 60  0001 C CNN "Supplier"
-F 5 "311-470KARCT-ND" H 3500 1000 60  0001 C CNN "Supplier Part Number"
+F 5 "311-470KGRTR-ND" H 3500 1000 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 3500 900 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07470KL" H 3500 800 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 470K OHM 5% 1/8W 0805" H 3500 700 60  0001 C CNN "Description"
+F 7 "RC0603JR-07470KL" H 3500 800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 470K OHM 5% 1/10W 0603" H 3500 700 60  0001 C CNN "Description"
 F 9 "470k" H 3500 1430 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 3910 1420 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 3500 1360 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 3500 1360 50  0001 C CNN "Puissance (Watts)"
 	1    3500 1500
 	0    -1   -1   0   
 $EndComp
@@ -798,7 +798,7 @@ AR Path="/593FF93E/593A1551" Ref="D2101"  Part="1"
 AR Path="/59400152/593A1551" Ref="D2501"  Part="1" 
 AR Path="/59400D56/593A1551" Ref="D2901"  Part="1" 
 AR Path="/593A1551" Ref="D2101"  Part="1" 
-F 0 "D1301" H 1950 2050 60  0000 C CNN
+F 0 "D501" H 1950 2050 60  0000 C CNN
 F 1 "150080RS75000" H 2000 1700 60  0001 C CNN
 F 2 "Diodes:LED_0805_RED" H 2010 820 60  0001 C CNN
 F 3 "http://katalog.we-online.de/led/datasheet/150080RS75000.pdf" H 2010 720 60  0001 C CNN
@@ -815,7 +815,7 @@ $EndComp
 Wire Wire Line
 	2000 2200 2000 2100
 $Comp
-L Resistors:RC0805JR-071KL R501
+L Resistors:RC0603JR-071KL R501
 U 1 1 593A2339
 P 2000 1500
 AR Path="/5938E2BF/593A2339" Ref="R501"  Part="1" 
@@ -828,18 +828,18 @@ AR Path="/593FF1B1/593A2339" Ref="R1701"  Part="1"
 AR Path="/593FF93E/593A2339" Ref="R2101"  Part="1" 
 AR Path="/59400152/593A2339" Ref="R2501"  Part="1" 
 AR Path="/59400D56/593A2339" Ref="R2901"  Part="1" 
-F 0 "R1301" H 2000 1580 60  0000 C CNN
-F 1 "RC0805JR-071KL" H 2000 1200 50  0001 C CNN
-F 2 "Resistors:R0805" H 2000 600 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2000 550 30  0001 C CNN
+F 0 "R501" H 2000 1580 60  0000 C CNN
+F 1 "RC0603JR-071KL" H 2000 1200 50  0001 C CNN
+F 2 "Resistors:R0603" H 2000 600 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2000 550 30  0001 C CNN
 F 4 "Digikey" H 2000 1100 60  0001 C CNN "Supplier"
-F 5 "311-1.0KARCT-ND" H 2000 1000 60  0001 C CNN "Supplier Part Number"
+F 5 "311-1.0KGRTR-ND" H 2000 1000 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 2000 900 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-071KL" H 2000 800 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 1K OHM 5% 1/8W 0805" H 2000 700 60  0001 C CNN "Description"
+F 7 "RC0603JR-071KL" H 2000 800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 1K OHM 5% 1/10W 0603" H 2000 700 60  0001 C CNN "Description"
 F 9 "1k" H 2000 1430 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 2410 1420 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 2000 1360 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 2000 1360 50  0001 C CNN "Puissance (Watts)"
 	1    2000 1500
 	0    -1   -1   0   
 $EndComp
@@ -855,7 +855,7 @@ Wire Wire Line
 Text Label 7600 3900 0    60   ~ 0
 AGND
 $Comp
-L Resistors:RC0805JR-074K7L R510
+L Resistors:RC0603JR-074K7L R510
 U 1 1 593D0FB3
 P 7000 4900
 AR Path="/5938E2BF/593D0FB3" Ref="R510"  Part="1" 
@@ -868,23 +868,23 @@ AR Path="/593FF1B1/593D0FB3" Ref="R1710"  Part="1"
 AR Path="/593FF93E/593D0FB3" Ref="R2110"  Part="1" 
 AR Path="/59400152/593D0FB3" Ref="R2510"  Part="1" 
 AR Path="/59400D56/593D0FB3" Ref="R2910"  Part="1" 
-F 0 "R1310" H 7000 4980 60  0000 C CNN
-F 1 "RC0805JR-074K7L" H 7000 4600 50  0001 C CNN
-F 2 "Resistors:R0805" H 7000 4000 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 7000 3950 30  0001 C CNN
+F 0 "R510" H 7000 4980 60  0000 C CNN
+F 1 "RC0603JR-074K7L" H 7000 4600 50  0001 C CNN
+F 2 "Resistors:R0603" H 7000 4000 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7000 3950 30  0001 C CNN
 F 4 "Digikey" H 7000 4500 60  0001 C CNN "Supplier"
-F 5 "311-4.7KARCT-ND" H 7000 4400 60  0001 C CNN "Supplier Part Number"
+F 5 "311-4.7KGRTR-ND" H 7000 4400 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 7000 4300 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-074K7L" H 7000 4200 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 4.7K OHM 5% 1/8W 0805" H 7000 4100 60  0001 C CNN "Description"
+F 7 "RC0603JR-074K7L" H 7000 4200 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 4.7K OHM 5% 1/10W 0603" H 7000 4100 60  0001 C CNN "Description"
 F 9 "4.7k" H 7000 4830 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 7200 4800 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 7000 4760 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 7000 4760 50  0001 C CNN "Puissance (Watts)"
 	1    7000 4900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors:RC0805JR-074K7L R511
+L Resistors:RC0603JR-074K7L R511
 U 1 1 593D1688
 P 8000 5100
 AR Path="/5938E2BF/593D1688" Ref="R511"  Part="1" 
@@ -897,23 +897,23 @@ AR Path="/593FF1B1/593D1688" Ref="R1711"  Part="1"
 AR Path="/593FF93E/593D1688" Ref="R2111"  Part="1" 
 AR Path="/59400152/593D1688" Ref="R2511"  Part="1" 
 AR Path="/59400D56/593D1688" Ref="R2911"  Part="1" 
-F 0 "R1311" H 8000 5180 60  0000 C CNN
-F 1 "RC0805JR-074K7L" H 8000 4800 50  0001 C CNN
-F 2 "Resistors:R0805" H 8000 4200 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 8000 4150 30  0001 C CNN
+F 0 "R511" H 8000 5180 60  0000 C CNN
+F 1 "RC0603JR-074K7L" H 8000 4800 50  0001 C CNN
+F 2 "Resistors:R0603" H 8000 4200 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8000 4150 30  0001 C CNN
 F 4 "Digikey" H 8000 4700 60  0001 C CNN "Supplier"
-F 5 "311-4.7KARCT-ND" H 8000 4600 60  0001 C CNN "Supplier Part Number"
+F 5 "311-4.7KGRTR-ND" H 8000 4600 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 8000 4500 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-074K7L" H 8000 4400 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 4.7K OHM 5% 1/8W 0805" H 8000 4300 60  0001 C CNN "Description"
+F 7 "RC0603JR-074K7L" H 8000 4400 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 4.7K OHM 5% 1/10W 0603" H 8000 4300 60  0001 C CNN "Description"
 F 9 "4.7k" H 8000 5030 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 8200 5000 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 8000 4960 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 8000 4960 50  0001 C CNN "Puissance (Watts)"
 	1    8000 5100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors:RC0805JR-07470KL R514
+L Resistors:RC0603JR-07470KL R514
 U 1 1 593D16CF
 P 7300 5400
 AR Path="/5938E2BF/593D16CF" Ref="R514"  Part="1" 
@@ -926,18 +926,18 @@ AR Path="/593FF1B1/593D16CF" Ref="R1714"  Part="1"
 AR Path="/593FF93E/593D16CF" Ref="R2114"  Part="1" 
 AR Path="/59400152/593D16CF" Ref="R2514"  Part="1" 
 AR Path="/59400D56/593D16CF" Ref="R2914"  Part="1" 
-F 0 "R1314" H 7300 5480 60  0000 C CNN
-F 1 "RC0805JR-07470KL" H 7300 5100 50  0001 C CNN
-F 2 "Resistors:R0805" H 7300 4500 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 7300 4450 30  0001 C CNN
+F 0 "R514" H 7300 5480 60  0000 C CNN
+F 1 "RC0603JR-07470KL" H 7300 5100 50  0001 C CNN
+F 2 "Resistors:R0603" H 7300 4500 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7300 4450 30  0001 C CNN
 F 4 "Digikey" H 7300 5000 60  0001 C CNN "Supplier"
-F 5 "311-470KARCT-ND" H 7300 4900 60  0001 C CNN "Supplier Part Number"
+F 5 "311-470KGRTR-ND" H 7300 4900 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 7300 4800 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07470KL" H 7300 4700 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 470K OHM 5% 1/8W 0805" H 7300 4600 60  0001 C CNN "Description"
+F 7 "RC0603JR-07470KL" H 7300 4700 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 470K OHM 5% 1/10W 0603" H 7300 4600 60  0001 C CNN "Description"
 F 9 "470k" H 7300 5330 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 7710 5320 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 7300 5260 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 7300 5260 50  0001 C CNN "Puissance (Watts)"
 	1    7300 5400
 	0    -1   -1   0   
 $EndComp
@@ -955,7 +955,7 @@ PWR_ENABLE
 Text Label 5100 2000 0    60   ~ 0
 AVDD
 $Comp
-L Resistors:RC0805JR-07100RL R508
+L Resistors:RC0603FR-07100RL R508
 U 1 1 593934E8
 P 7400 4700
 AR Path="/5938E2BF/593934E8" Ref="R508"  Part="1" 
@@ -968,23 +968,23 @@ AR Path="/593FF1B1/593934E8" Ref="R1708"  Part="1"
 AR Path="/593FF93E/593934E8" Ref="R2108"  Part="1" 
 AR Path="/59400152/593934E8" Ref="R2508"  Part="1" 
 AR Path="/59400D56/593934E8" Ref="R2908"  Part="1" 
-F 0 "R1308" H 7400 4780 60  0000 C CNN
-F 1 "RC0805JR-07100RL" H 7400 4400 50  0001 C CNN
-F 2 "Resistors:R0805" H 7400 3800 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 7400 3750 30  0001 C CNN
+F 0 "R508" H 7400 4780 60  0000 C CNN
+F 1 "RC0603FR-07100RL" H 7400 4400 50  0001 C CNN
+F 2 "Resistors:R0603" H 7400 3800 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7400 3750 30  0001 C CNN
 F 4 "Digikey" H 7400 4300 60  0001 C CNN "Supplier"
-F 5 "311-100ARCT-ND" H 7400 4200 60  0001 C CNN "Supplier Part Number"
+F 5 "311-100HRTR-ND" H 7400 4200 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 7400 4100 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07100RL" H 7400 4000 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 100 OHM 5% 1/8W 0805" H 7400 3900 60  0001 C CNN "Description"
+F 7 "RC0603FR-07100RL" H 7400 4000 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 100 OHM 1% 1/10W 0603" H 7400 3900 60  0001 C CNN "Description"
 F 9 "100" H 7400 4630 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 7810 4620 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 7400 4560 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 7400 4560 50  0001 C CNN "Puissance (Watts)"
 	1    7400 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors:RC0805JR-07100RL R506
+L Resistors:RC0603FR-07100RL R506
 U 1 1 593932C5
 P 7000 4500
 AR Path="/5938E2BF/593932C5" Ref="R506"  Part="1" 
@@ -997,23 +997,23 @@ AR Path="/593FF1B1/593932C5" Ref="R1706"  Part="1"
 AR Path="/593FF93E/593932C5" Ref="R2106"  Part="1" 
 AR Path="/59400152/593932C5" Ref="R2506"  Part="1" 
 AR Path="/59400D56/593932C5" Ref="R2906"  Part="1" 
-F 0 "R1306" H 7000 4580 60  0000 C CNN
-F 1 "RC0805JR-07100RL" H 7000 4200 50  0001 C CNN
-F 2 "Resistors:R0805" H 7000 3600 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 7000 3550 30  0001 C CNN
+F 0 "R506" H 7000 4580 60  0000 C CNN
+F 1 "RC0603FR-07100RL" H 7000 4200 50  0001 C CNN
+F 2 "Resistors:R0603" H 7000 3600 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7000 3550 30  0001 C CNN
 F 4 "Digikey" H 7000 4100 60  0001 C CNN "Supplier"
-F 5 "311-100ARCT-ND" H 7000 4000 60  0001 C CNN "Supplier Part Number"
+F 5 "311-100HRTR-ND" H 7000 4000 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 7000 3900 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07100RL" H 7000 3800 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 100 OHM 5% 1/8W 0805" H 7000 3700 60  0001 C CNN "Description"
+F 7 "RC0603FR-07100RL" H 7000 3800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 100 OHM 1% 1/10W 0603" H 7000 3700 60  0001 C CNN "Description"
 F 9 "100" H 7000 4430 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 7410 4420 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 7000 4360 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 7000 4360 50  0001 C CNN "Puissance (Watts)"
 	1    7000 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Resistors:RC0805JR-07100RL R504
+L Resistors:RC0603FR-07100RL R504
 U 1 1 59392BA0
 P 7400 4300
 AR Path="/5938E2BF/59392BA0" Ref="R504"  Part="1" 
@@ -1026,18 +1026,18 @@ AR Path="/593FF1B1/59392BA0" Ref="R1704"  Part="1"
 AR Path="/593FF93E/59392BA0" Ref="R2104"  Part="1" 
 AR Path="/59400152/59392BA0" Ref="R2504"  Part="1" 
 AR Path="/59400D56/59392BA0" Ref="R2904"  Part="1" 
-F 0 "R1304" H 7400 4380 60  0000 C CNN
-F 1 "RC0805JR-07100RL" H 7400 4000 50  0001 C CNN
-F 2 "Resistors:R0805" H 7400 3400 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 7400 3350 30  0001 C CNN
+F 0 "R504" H 7400 4380 60  0000 C CNN
+F 1 "RC0603FR-07100RL" H 7400 4000 50  0001 C CNN
+F 2 "Resistors:R0603" H 7400 3400 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7400 3350 30  0001 C CNN
 F 4 "Digikey" H 7400 3900 60  0001 C CNN "Supplier"
-F 5 "311-100ARCT-ND" H 7400 3800 60  0001 C CNN "Supplier Part Number"
+F 5 "311-100HRTR-ND" H 7400 3800 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 7400 3700 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07100RL" H 7400 3600 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 100 OHM 5% 1/8W 0805" H 7400 3500 60  0001 C CNN "Description"
+F 7 "RC0603FR-07100RL" H 7400 3600 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 100 OHM 1% 1/10W 0603" H 7400 3500 60  0001 C CNN "Description"
 F 9 "100" H 7400 4230 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 7810 4220 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 7400 4160 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 7400 4160 50  0001 C CNN "Puissance (Watts)"
 	1    7400 4300
 	1    0    0    -1  
 $EndComp
@@ -1053,7 +1053,7 @@ AR Path="/59400152/5948E47C" Ref="F2501"  Part="1"
 AR Path="/593FF93E/5948E47C" Ref="F2101"  Part="1" 
 AR Path="/59400D56/5948E47C" Ref="F2901"  Part="1" 
 AR Path="/59400D60/5948E47C" Ref="F3301"  Part="1" 
-F 0 "F1301" H 1700 1310 60  0000 C CNN
+F 0 "F501" H 1700 1310 60  0000 C CNN
 F 1 "39511000440" H 1700 900 50  0001 C CNN
 F 2 "Fuses:TE5_395" H 1700 300 30  0001 C CNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf" H 1700 250 30  0001 C CNN
@@ -1125,7 +1125,7 @@ AR Path="/593FDFB1/5EBA09D2" Ref="J1301"  Part="1"
 AR Path="/593FF1B1/5EBA09D2" Ref="J1701"  Part="1" 
 AR Path="/593FF93E/5EBA09D2" Ref="J2101"  Part="1" 
 AR Path="/59400152/5EBA09D2" Ref="J2501"  Part="1" 
-F 0 "J1301" H 858 1637 60  0000 C CNN
+F 0 "J501" H 858 1637 60  0000 C CNN
 F 1 "64900221122" H 858 1531 60  0000 C CNN
 F 2 "Connectors:64900221122" H 800 400 60  0001 C CNN
 F 3 "http://katalog.we-online.de/em/datasheet/6490xx21122.pdf" H 800 300 60  0001 C CNN

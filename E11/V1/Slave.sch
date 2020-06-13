@@ -927,59 +927,59 @@ Wire Wire Line
 Wire Wire Line
 	6300 1800 6500 1800
 $Comp
-L Resistors:RC0805JR-07470RL R105
+L Resistors:RC0603JR-07470RL R105
 U 1 1 59A863F5
 P 4500 2650
 F 0 "R105" H 4500 2730 60  0000 C CNN
-F 1 "RC0805JR-07470RL" H 4500 2350 50  0001 C CNN
-F 2 "Resistors:R0805" H 4500 1750 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4500 1700 30  0001 C CNN
+F 1 "RC0603JR-07470RL" H 4500 2350 50  0001 C CNN
+F 2 "Resistors:R0603" H 4500 1750 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4500 1700 30  0001 C CNN
 F 4 "Digikey" H 4500 2250 60  0001 C CNN "Supplier"
-F 5 "311-470ARCT-ND" H 4500 2150 60  0001 C CNN "Supplier Part Number"
+F 5 "311-470GRTR-ND" H 4500 2150 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 4500 2050 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07470RL" H 4500 1950 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 470 OHM 5% 1/8W 0805" H 4500 1850 60  0001 C CNN "Description"
+F 7 "RC0603JR-07470RL" H 4500 1950 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 470 OHM 5% 1/10W 0603" H 4500 1850 60  0001 C CNN "Description"
 F 9 "470" H 4500 2580 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 4910 2570 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 4500 2510 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 4500 2510 50  0001 C CNN "Puissance (Watts)"
 	1    4500 2650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Resistors:RC0805JR-07470RL R106
+L Resistors:RC0603JR-07470RL R106
 U 1 1 59A87BD9
 P 5000 2650
 F 0 "R106" H 5000 2730 60  0000 C CNN
-F 1 "RC0805JR-07470RL" H 5000 2350 50  0001 C CNN
-F 2 "Resistors:R0805" H 5000 1750 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 5000 1700 30  0001 C CNN
+F 1 "RC0603JR-07470RL" H 5000 2350 50  0001 C CNN
+F 2 "Resistors:R0603" H 5000 1750 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5000 1700 30  0001 C CNN
 F 4 "Digikey" H 5000 2250 60  0001 C CNN "Supplier"
-F 5 "311-470ARCT-ND" H 5000 2150 60  0001 C CNN "Supplier Part Number"
+F 5 "311-470GRTR-ND" H 5000 2150 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 5000 2050 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07470RL" H 5000 1950 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 470 OHM 5% 1/8W 0805" H 5000 1850 60  0001 C CNN "Description"
+F 7 "RC0603JR-07470RL" H 5000 1950 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 470 OHM 5% 1/10W 0603" H 5000 1850 60  0001 C CNN "Description"
 F 9 "470" H 5000 2580 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 5410 2570 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 5000 2510 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 5000 2510 50  0001 C CNN "Puissance (Watts)"
 	1    5000 2650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Resistors:RC0805JR-07470RL R107
+L Resistors:RC0603JR-07470RL R107
 U 1 1 59A87EBB
 P 5500 2650
 F 0 "R107" H 5500 2730 60  0000 C CNN
-F 1 "RC0805JR-07470RL" H 5500 2350 50  0001 C CNN
-F 2 "Resistors:R0805" H 5500 1750 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 5500 1700 30  0001 C CNN
+F 1 "RC0603JR-07470RL" H 5500 2350 50  0001 C CNN
+F 2 "Resistors:R0603" H 5500 1750 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5500 1700 30  0001 C CNN
 F 4 "Digikey" H 5500 2250 60  0001 C CNN "Supplier"
-F 5 "311-470ARCT-ND" H 5500 2150 60  0001 C CNN "Supplier Part Number"
+F 5 "311-470GRTR-ND" H 5500 2150 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 5500 2050 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07470RL" H 5500 1950 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 470 OHM 5% 1/8W 0805" H 5500 1850 60  0001 C CNN "Description"
+F 7 "RC0603JR-07470RL" H 5500 1950 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 470 OHM 5% 1/10W 0603" H 5500 1850 60  0001 C CNN "Description"
 F 9 "470" H 5500 2580 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 5910 2570 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 5500 2510 50  0001 C CNN "Puissance (Watts)"
+F 11 "1/10W" H 5500 2510 50  0001 C CNN "Puissance (Watts)"
 	1    5500 2650
 	0    -1   -1   0   
 $EndComp
