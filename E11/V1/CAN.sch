@@ -67,18 +67,18 @@ Connection ~ 1800 4000
 Wire Wire Line
 	1800 4100 1800 4000
 $Comp
-L Capacitors:885012207098 C404
+L Capacitors:885012206095 C404
 U 1 1 58F7ED24
 P 2700 3400
 F 0 "C404" H 2650 3550 60  0000 C CNN
 F 1 "885012207098" H 2650 3050 60  0001 C CNN
-F 2 "Capacitors:C0805" H 2650 2450 60  0001 C CNN
-F 3 "D" H 2650 2350 60  0001 C CNN
+F 2 "Capacitors:C0603" H 2650 2450 60  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206095.pdf" H 2650 2350 60  0001 C CNN
 F 4 "Digikey" H 2650 2950 60  0001 C CNN "Supplier"
-F 5 "732-8080-1-ND" H 2650 2850 60  0001 C CNN "Supplier Part Number"
+F 5 "732-8013-2-ND" H 2650 2850 60  0001 C CNN "Supplier Part Number"
 F 6 "Wurth Electronics Inc." H 2650 2750 60  0001 C CNN "Manufacturer"
-F 7 "885012207098" H 2650 2650 60  0001 C CNN "Manufacturer Part Number"
-F 8 "CAP CER 0.1UF 50V X7R 0805" H 2650 2550 60  0001 C CNN "Description"
+F 7 "885012206095" H 2650 2650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 0.1UF 50V X7R 0603" H 2650 2550 60  0001 C CNN "Description"
 F 9 "100nF" H 2650 3280 50  0000 C CNN "Capacitance (Farad)"
 F 10 "±10%" H 2910 3280 50  0001 C CNN "Tolerance (%)"
 F 11 "50V" H 2650 3210 50  0001 C CNN "Voltage Rated (Volt)"
@@ -104,18 +104,18 @@ $EndComp
 Wire Wire Line
 	2400 3400 2500 3400
 $Comp
-L Capacitors:885012107015 C401
+L Capacitors:885012106022 C401
 U 1 1 58F7F5F6
 P 2700 3000
 F 0 "C401" H 2650 3150 60  0000 C CNN
 F 1 "885012107015" H 2650 2650 60  0001 C CNN
-F 2 "Capacitors:C0805" H 2650 2050 60  0001 C CNN
-F 3 "D" H 2650 1950 60  0001 C CNN
+F 2 "Capacitors:C0603" H 2650 2050 60  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012106022.pdf" H 2650 1950 60  0001 C CNN
 F 4 "Digikey" H 2650 2550 60  0001 C CNN "Supplier"
-F 5 "732-7625-1-ND" H 2650 2450 60  0001 C CNN "Supplier Part Number"
+F 5 "732-7919-2-ND" H 2650 2450 60  0001 C CNN "Supplier Part Number"
 F 6 "Wurth Electronics Inc." H 2650 2350 60  0001 C CNN "Manufacturer"
-F 7 "885012107015" H 2650 2250 60  0001 C CNN "Manufacturer Part Number"
-F 8 "CAP CER 1UF 25V X5R 0805" H 2650 2150 60  0001 C CNN "Description"
+F 7 "885012106022" H 2650 2250 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 1UF 25V X5R 0603" H 2650 2150 60  0001 C CNN "Description"
 F 9 "1µF" H 2650 2880 50  0000 C CNN "Capacitance (Farad)"
 F 10 "±20%" H 2910 2880 50  0001 C CNN "Tolerance (%)"
 F 11 "25V" H 2650 2810 50  0001 C CNN "Voltage Rated (Volt)"
@@ -453,21 +453,21 @@ Wire Wire Line
 Connection ~ 6300 2500
 Connection ~ 6200 2700
 $Comp
-L Resistors:RC0805JR-070RL R403
+L Resistors:RC0603JR-070RL R403
 U 1 1 593E067F
 P 8000 1800
 F 0 "R403" H 8000 1880 60  0000 C CNN
 F 1 "RC0805JR-070RL" H 8000 1500 50  0001 C CNN
-F 2 "Resistors:R0805" H 8000 900 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 8000 850 30  0001 C CNN
+F 2 "Resistors:R0603" H 8000 900 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8000 850 30  0001 C CNN
 F 4 "Digikey" H 8000 1400 60  0001 C CNN "Supplier"
-F 5 "311-0.0ARCT-ND" H 8000 1300 60  0001 C CNN "Supplier Part Number"
+F 5 "311-0.0GRTR-ND" H 8000 1300 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 8000 1200 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-070RL" H 8000 1100 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 8000 1000 60  0001 C CNN "Description"
+F 7 "RC0603JR-070RL" H 8000 1100 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 0 OHM JUMPER 1/10W 0603" H 8000 1000 60  0001 C CNN "Description"
 F 9 "0" H 8000 1730 50  0000 C CNN "Resistance (Ohms)"
-F 10 "0" H 8410 1720 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 8000 1660 50  0001 C CNN "Puissance (Watts)"
+F 10 "Jumper" H 8410 1720 50  0001 C CNN "Tolerance (%)"
+F 11 "1/10W" H 8000 1660 50  0001 C CNN "Puissance (Watts)"
 	1    8000 1800
 	1    0    0    -1  
 $EndComp
@@ -535,21 +535,21 @@ $EndComp
 Text Label 6500 4300 0    60   ~ 0
 CAN_N
 $Comp
-L Resistors:RC0805JR-070RL R404
+L Resistors:RC0603JR-070RL R404
 U 1 1 593E12F0
 P 8000 4200
 F 0 "R404" H 8000 4280 60  0000 C CNN
 F 1 "RC0805JR-070RL" H 8000 3900 50  0001 C CNN
-F 2 "Resistors:R0805" H 8000 3300 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 8000 3250 30  0001 C CNN
+F 2 "Resistors:R0603" H 8000 3300 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 8000 3250 30  0001 C CNN
 F 4 "Digikey" H 8000 3800 60  0001 C CNN "Supplier"
-F 5 "311-0.0ARCT-ND" H 8000 3700 60  0001 C CNN "Supplier Part Number"
+F 5 "311-0.0GRTR-ND" H 8000 3700 60  0001 C CNN "Supplier Part Number"
 F 6 "Yageo" H 8000 3600 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-070RL" H 8000 3500 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" H 8000 3400 60  0001 C CNN "Description"
+F 7 "RC0603JR-070RL" H 8000 3500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 0 OHM JUMPER 1/10W 0603" H 8000 3400 60  0001 C CNN "Description"
 F 9 "0" H 8000 4130 50  0000 C CNN "Resistance (Ohms)"
-F 10 "0" H 8410 4120 50  0001 C CNN "Tolerance (%)"
-F 11 "1/8W" H 8000 4060 50  0001 C CNN "Puissance (Watts)"
+F 10 "Jumper" H 8410 4120 50  0001 C CNN "Tolerance (%)"
+F 11 "1/10W" H 8000 4060 50  0001 C CNN "Puissance (Watts)"
 	1    8000 4200
 	1    0    0    -1  
 $EndComp
@@ -596,18 +596,18 @@ Wire Wire Line
 	6000 4200 6000 4900
 Connection ~ 6000 4900
 $Comp
-L Resistors:RC0805JR-07100RL R401
+L Resistors:RNCP0603FTD100R R401
 U 1 1 594CCB91
 P 1500 4000
 F 0 "R401" H 1500 4080 60  0000 C CNN
 F 1 "RC0805JR-07100RL" H 1500 3700 50  0001 C CNN
-F 2 "Resistors:R0805" H 1500 3100 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 1500 3050 30  0001 C CNN
+F 2 "Resistors:R0603" H 1500 3100 30  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 1500 3050 30  0001 C CNN
 F 4 "Digikey" H 1500 3600 60  0001 C CNN "Supplier"
-F 5 "311-100ARCT-ND" H 1500 3500 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 1500 3400 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07100RL" H 1500 3300 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 100 OHM 5% 1/8W 0805" H 1500 3200 60  0001 C CNN "Description"
+F 5 "RNCP0603FTD100RTR-ND" H 1500 3500 60  0001 C CNN "Supplier Part Number"
+F 6 "Stackpole Electronics Inc" H 1500 3400 60  0001 C CNN "Manufacturer"
+F 7 "RNCP0603FTD100R" H 1500 3300 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES 100 OHM 1% 1/8W 0603" H 1500 3200 60  0001 C CNN "Description"
 F 9 "100" H 1500 3930 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 1910 3920 50  0001 C CNN "Tolerance (%)"
 F 11 "1/8W" H 1500 3860 50  0001 C CNN "Puissance (Watts)"
@@ -615,18 +615,18 @@ F 11 "1/8W" H 1500 3860 50  0001 C CNN "Puissance (Watts)"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Capacitors:885012207080 C405
+L Capacitors:885012206077 C405
 U 1 1 594CCC83
 P 1800 4200
 F 0 "C405" H 1750 4360 60  0000 C CNN
 F 1 "885012207080" H 1750 3850 60  0001 C CNN
-F 2 "Capacitors:C0805" H 1750 3250 60  0001 C CNN
-F 3 "D" H 1750 3150 60  0001 C CNN
+F 2 "Capacitors:C0603" H 1750 3250 60  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206077.pdf" H 1750 3150 60  0001 C CNN
 F 4 "Digikey" H 1750 3750 60  0001 C CNN "Supplier"
-F 5 "732-8062-1-ND" H 1750 3650 60  0001 C CNN "Supplier Part Number"
+F 5 "732-7995-2-ND" H 1750 3650 60  0001 C CNN "Supplier Part Number"
 F 6 "Wurth Electronics Inc." H 1750 3550 60  0001 C CNN "Manufacturer"
-F 7 "885012207080" H 1750 3450 60  0001 C CNN "Manufacturer Part Number"
-F 8 "CAP CER 100PF 50V X7R 0805" H 1750 3350 60  0001 C CNN "Description"
+F 7 "885012206077" H 1750 3450 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 100PF 50V X7R 0603" H 1750 3350 60  0001 C CNN "Description"
 F 9 "100pF" H 1750 4080 50  0000 C CNN "Capacitance (Farad)"
 F 10 "±10%" H 2010 4080 50  0001 C CNN "Tolerance (%)"
 F 11 "50V" H 1750 4010 50  0001 C CNN "Voltage Rated (Volt)"
@@ -634,18 +634,18 @@ F 11 "50V" H 1750 4010 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Capacitors:885012007053 C406
+L Capacitors:885012006053 C406
 U 1 1 594CDD44
 P 5600 5400
 F 0 "C406" H 5550 5560 60  0000 C CNN
 F 1 "885012007053" H 5550 5050 60  0001 C CNN
-F 2 "Capacitors:C0805" H 5550 4450 60  0001 C CNN
-F 3 "D" H 5550 4350 60  0001 C CNN
+F 2 "Capacitors:C0603" H 5550 4450 60  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012006053.pdf" H 5550 4350 60  0001 C CNN
 F 4 "Digikey" H 5550 4950 60  0001 C CNN "Supplier"
-F 5 "732-7848-1-ND" H 5550 4850 60  0001 C CNN "Supplier Part Number"
+F 5 "732-7995-2-ND" H 5550 4850 60  0001 C CNN "Supplier Part Number"
 F 6 "Wurth Electronics Inc." H 5550 4750 60  0001 C CNN "Manufacturer"
-F 7 "885012007053" H 5550 4650 60  0001 C CNN "Manufacturer Part Number"
-F 8 "CAP CER 22PF 50V C0G/NP0 0805" H 5550 4550 60  0001 C CNN "Description"
+F 7 "885012206077" H 5550 4650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 22PF 50V X7R 0603" H 5550 4550 60  0001 C CNN "Description"
 F 9 "22pF" H 5550 5280 50  0000 C CNN "Capacitance (Farad)"
 F 10 "±5%" H 5810 5280 50  0001 C CNN "Tolerance (%)"
 F 11 "50V" H 5550 5210 50  0001 C CNN "Voltage Rated (Volt)"
@@ -653,18 +653,18 @@ F 11 "50V" H 5550 5210 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Capacitors:885012007053 C407
+L Capacitors:885012006053 C407
 U 1 1 594CDE40
 P 6200 5400
 F 0 "C407" H 6150 5560 60  0000 C CNN
 F 1 "885012007053" H 6150 5050 60  0001 C CNN
-F 2 "Capacitors:C0805" H 6150 4450 60  0001 C CNN
-F 3 "D" H 6150 4350 60  0001 C CNN
+F 2 "Capacitors:C0603" H 6150 4450 60  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012006053.pdf" H 6150 4350 60  0001 C CNN
 F 4 "Digikey" H 6150 4950 60  0001 C CNN "Supplier"
-F 5 "732-7848-1-ND" H 6150 4850 60  0001 C CNN "Supplier Part Number"
+F 5 "732-7995-2-ND" H 6150 4850 60  0001 C CNN "Supplier Part Number"
 F 6 "Wurth Electronics Inc." H 6150 4750 60  0001 C CNN "Manufacturer"
-F 7 "885012007053" H 6150 4650 60  0001 C CNN "Manufacturer Part Number"
-F 8 "CAP CER 22PF 50V C0G/NP0 0805" H 6150 4550 60  0001 C CNN "Description"
+F 7 "885012206077" H 6150 4650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 22PF 50V X7R 0603" H 6150 4550 60  0001 C CNN "Description"
 F 9 "22pF" H 6150 5280 50  0000 C CNN "Capacitance (Farad)"
 F 10 "±5%" H 6410 5280 50  0001 C CNN "Tolerance (%)"
 F 11 "50V" H 6150 5210 50  0001 C CNN "Voltage Rated (Volt)"
@@ -672,18 +672,18 @@ F 11 "50V" H 6150 5210 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Capacitors:885012007053 C402
+L Capacitors:885012006053 C402
 U 1 1 594CE13F
 P 5700 3000
 F 0 "C402" H 5650 3160 60  0000 C CNN
 F 1 "885012007053" H 5650 2650 60  0001 C CNN
-F 2 "Capacitors:C0805" H 5650 2050 60  0001 C CNN
-F 3 "D" H 5650 1950 60  0001 C CNN
+F 2 "Capacitors:C0603" H 5650 2050 60  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012006053.pdf" H 5650 1950 60  0001 C CNN
 F 4 "Digikey" H 5650 2550 60  0001 C CNN "Supplier"
-F 5 "732-7848-1-ND" H 5650 2450 60  0001 C CNN "Supplier Part Number"
+F 5 "732-7995-2-ND" H 5650 2450 60  0001 C CNN "Supplier Part Number"
 F 6 "Wurth Electronics Inc." H 5650 2350 60  0001 C CNN "Manufacturer"
-F 7 "885012007053" H 5650 2250 60  0001 C CNN "Manufacturer Part Number"
-F 8 "CAP CER 22PF 50V C0G/NP0 0805" H 5650 2150 60  0001 C CNN "Description"
+F 7 "885012206077" H 5650 2250 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 22PF 50V X7R 0603" H 5650 2150 60  0001 C CNN "Description"
 F 9 "22pF" H 5650 2880 50  0000 C CNN "Capacitance (Farad)"
 F 10 "±5%" H 5910 2880 50  0001 C CNN "Tolerance (%)"
 F 11 "50V" H 5650 2810 50  0001 C CNN "Voltage Rated (Volt)"
@@ -691,18 +691,18 @@ F 11 "50V" H 5650 2810 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Capacitors:885012007053 C403
+L Capacitors:885012006053 C403
 U 1 1 594CE20F
 P 6300 3000
 F 0 "C403" H 6250 3160 60  0000 C CNN
 F 1 "885012007053" H 6250 2650 60  0001 C CNN
-F 2 "Capacitors:C0805" H 6250 2050 60  0001 C CNN
-F 3 "D" H 6250 1950 60  0001 C CNN
+F 2 "Capacitors:C0603" H 6250 2050 60  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012006053.pdf" H 6250 1950 60  0001 C CNN
 F 4 "Digikey" H 6250 2550 60  0001 C CNN "Supplier"
-F 5 "732-7848-1-ND" H 6250 2450 60  0001 C CNN "Supplier Part Number"
+F 5 "732-7995-2-ND" H 6250 2450 60  0001 C CNN "Supplier Part Number"
 F 6 "Wurth Electronics Inc." H 6250 2350 60  0001 C CNN "Manufacturer"
-F 7 "885012007053" H 6250 2250 60  0001 C CNN "Manufacturer Part Number"
-F 8 "CAP CER 22PF 50V C0G/NP0 0805" H 6250 2150 60  0001 C CNN "Description"
+F 7 "885012206077" H 6250 2250 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CAP CER 22PF 50V X7R 0603" H 6250 2150 60  0001 C CNN "Description"
 F 9 "22pF" H 6250 2880 50  0000 C CNN "Capacitance (Farad)"
 F 10 "±5%" H 6510 2880 50  0001 C CNN "Tolerance (%)"
 F 11 "50V" H 6250 2810 50  0001 C CNN "Voltage Rated (Volt)"
@@ -710,18 +710,18 @@ F 11 "50V" H 6250 2810 50  0001 C CNN "Voltage Rated (Volt)"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Resistors:RC0805JR-07100RL R405
+L Resistors:RNCP0603FTD100R R405
 U 1 1 594CFB9B
 P 2800 4200
 F 0 "R405" H 2800 4280 60  0000 C CNN
 F 1 "RC0805JR-07100RL" H 2800 3900 50  0001 C CNN
-F 2 "Resistors:R0805" H 2800 3300 30  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 2800 3250 30  0001 C CNN
+F 2 "Resistors:R0603" H 2800 3300 30  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-packaging.pdf" H 2800 3250 30  0001 C CNN
 F 4 "Digikey" H 2800 3800 60  0001 C CNN "Supplier"
-F 5 "311-100ARCT-ND" H 2800 3700 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 2800 3600 60  0001 C CNN "Manufacturer"
-F 7 "RC0805JR-07100RL" H 2800 3500 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 100 OHM 5% 1/8W 0805" H 2800 3400 60  0001 C CNN "Description"
+F 5 "RNCP0603FTD100RTR-ND" H 2800 3700 60  0001 C CNN "Supplier Part Number"
+F 6 "Stackpole Electronics Inc" H 2800 3600 60  0001 C CNN "Manufacturer"
+F 7 "RNCP0603FTD100R" H 2800 3500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES 100 OHM 1% 1/8W 0603" H 2800 3400 60  0001 C CNN "Description"
 F 9 "100" H 2800 4130 50  0000 C CNN "Resistance (Ohms)"
 F 10 "±5%" H 3210 4120 50  0001 C CNN "Tolerance (%)"
 F 11 "1/8W" H 2800 4060 50  0001 C CNN "Puissance (Watts)"

@@ -31,44 +31,18 @@ X CS 6 400 200 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Capacitors_885012007027
+# Capacitors_885012006053
 #
-DEF Capacitors_885012007027 C 0 0 N N 1 F N
+DEF Capacitors_885012006053 C 0 0 N N 1 F N
 F0 "C" -50 160 60 H V C CNN
-F1 "Capacitors_885012007027" -50 -350 60 H I C CNN
-F2 "Capacitors:C0805" -50 -950 60 H I C CNN
-F3 "D" -50 -1050 60 H I C CNN
+F1 "Capacitors_885012006053" -50 -350 60 H I C CNN
+F2 "Capacitors:C0603" -50 -950 60 H I C CNN
+F3 "" -50 -1050 60 H I C CNN
 F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-7826-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F5 "732-7995-2-ND" -50 -550 60 H I C CNN "Supplier Part Number"
 F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012007027" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 6.8PF 25V C0G/NP0 0805" -50 -850 60 H I C CNN "Description"
-F9 "6.8pF" -50 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "±0.5pF" 210 -120 50 H I C CNN "Tolerance (%)"
-F11 "25V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
-DRAW
-P 2 0 1 0 -100 0 -90 0 N
-P 2 0 1 10 -85 75 -85 -75 N
-P 2 0 1 10 -15 75 -15 -75 N
-P 2 0 1 0 0 0 -10 0 N
-P 2 0 1 0 25 0 50 0 N
-X 1 1 -200 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Capacitors_885012007053
-#
-DEF Capacitors_885012007053 C 0 0 N N 1 F N
-F0 "C" -50 160 60 H V C CNN
-F1 "Capacitors_885012007053" -50 -350 60 H I C CNN
-F2 "Capacitors:C0805" -50 -950 60 H I C CNN
-F3 "D" -50 -1050 60 H I C CNN
-F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-7848-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
-F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012007053" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 22PF 50V C0G/NP0 0805" -50 -850 60 H I C CNN "Description"
+F7 "885012206077" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 22PF 50V X7R 0603" -50 -850 60 H I C CNN "Description"
 F9 "22pF" -50 -120 50 H V C CNN "Capacitance (Farad)"
 F10 "±5%" 210 -120 50 H I C CNN "Tolerance (%)"
 F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
@@ -161,32 +135,6 @@ X 2 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Capacitors_885012107015
-#
-DEF Capacitors_885012107015 C 0 0 N N 1 F N
-F0 "C" -50 160 60 H V C CNN
-F1 "Capacitors_885012107015" -50 -350 60 H I C CNN
-F2 "Capacitors:C0805" -50 -950 60 H I C CNN
-F3 "D" -50 -1050 60 H I C CNN
-F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-7625-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
-F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012107015" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 1UF 25V X5R 0805" -50 -850 60 H I C CNN "Description"
-F9 "1µF" -50 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "±20%" 210 -120 50 H I C CNN "Tolerance (%)"
-F11 "25V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
-DRAW
-P 2 0 1 0 -100 0 -90 0 N
-P 2 0 1 10 -85 75 -85 -75 N
-P 2 0 1 10 -15 75 -15 -75 N
-P 2 0 1 0 0 0 -10 0 N
-P 2 0 1 0 25 0 50 0 N
-X 1 1 -200 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Capacitors_885012107018
 #
 DEF Capacitors_885012107018 C 0 0 N N 1 F N
@@ -265,70 +213,18 @@ X 2 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Capacitors_885012206095
+# Capacitors_885012206089
 #
-DEF Capacitors_885012206095 C 0 0 N N 1 F N
+DEF Capacitors_885012206089 C 0 0 N N 1 F N
 F0 "C" -50 160 60 H V C CNN
-F1 "Capacitors_885012206095" -50 -350 60 H I C CNN
+F1 "Capacitors_885012206089" -50 -350 60 H I C CNN
 F2 "Capacitors:C0603" -50 -950 60 H I C CNN
 F3 "" -50 -1050 60 H I C CNN
 F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-8013-2-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F5 "732-8007-2-ND" -50 -550 60 H I C CNN "Supplier Part Number"
 F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012206095" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 0.1UF 50V X7R 0603" -50 -850 60 H I C CNN "Description"
-F9 "100nF" -50 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
-F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
-DRAW
-P 2 0 1 0 -100 0 -90 0 N
-P 2 0 1 10 -85 75 -85 -75 N
-P 2 0 1 10 -15 75 -15 -75 N
-P 2 0 1 0 0 0 -10 0 N
-P 2 0 1 0 25 0 50 0 N
-X 1 1 -200 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Capacitors_885012207080
-#
-DEF Capacitors_885012207080 C 0 0 N N 1 F N
-F0 "C" -50 160 60 H V C CNN
-F1 "Capacitors_885012207080" -50 -350 60 H I C CNN
-F2 "Capacitors:C0805" -50 -950 60 H I C CNN
-F3 "D" -50 -1050 60 H I C CNN
-F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-8062-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
-F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012207080" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 100PF 50V X7R 0805" -50 -850 60 H I C CNN "Description"
-F9 "100pF" -50 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
-F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
-DRAW
-P 2 0 1 0 -100 0 -90 0 N
-P 2 0 1 10 -85 75 -85 -75 N
-P 2 0 1 10 -15 75 -15 -75 N
-P 2 0 1 0 0 0 -10 0 N
-P 2 0 1 0 25 0 50 0 N
-X 1 1 -200 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Capacitors_885012207092
-#
-DEF Capacitors_885012207092 C 0 0 N N 1 F N
-F0 "C" -50 160 60 H V C CNN
-F1 "Capacitors_885012207092" -50 -350 60 H I C CNN
-F2 "Capacitors:C0805" -50 -950 60 H I C CNN
-F3 "D" -50 -1050 60 H I C CNN
-F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-8074-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
-F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012207092" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 10000PF 50V X7R 0805" -50 -850 60 H I C CNN "Description"
+F7 "885012206089" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 10nF 50V X7R 0603" -50 -850 60 H I C CNN "Description"
 F9 "10nF" -50 -120 50 H V C CNN "Capacitance (Farad)"
 F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
 F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
@@ -343,18 +239,18 @@ X 2 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Capacitors_885012207098
+# Capacitors_885012206095
 #
-DEF Capacitors_885012207098 C 0 0 N N 1 F N
+DEF Capacitors_885012206095 C 0 0 N N 1 F N
 F0 "C" -50 160 60 H V C CNN
-F1 "Capacitors_885012207098" -50 -350 60 H I C CNN
-F2 "Capacitors:C0805" -50 -950 60 H I C CNN
-F3 "D" -50 -1050 60 H I C CNN
+F1 "Capacitors_885012206095" -50 -350 60 H I C CNN
+F2 "Capacitors:C0603" -50 -950 60 H I C CNN
+F3 "" -50 -1050 60 H I C CNN
 F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-8080-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F5 "732-8013-2-ND" -50 -550 60 H I C CNN "Supplier Part Number"
 F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012207098" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 0.1UF 50V X7R 0805" -50 -850 60 H I C CNN "Description"
+F7 "885012206095" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 0.1UF 50V X7R 0603" -50 -850 60 H I C CNN "Description"
 F9 "100nF" -50 -120 50 H V C CNN "Capacitance (Farad)"
 F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
 F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
@@ -384,6 +280,32 @@ F8 "CAP CER 10UF 16V X5R 0603" -50 -850 60 H I C CNN "Description"
 F9 "10µF" -50 -120 50 H V C CNN "Capacitance (Farad)"
 F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
 F11 "16V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_GRT188C81E475KE13D
+#
+DEF Capacitors_GRT188C81E475KE13D C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "Capacitors_GRT188C81E475KE13D" -50 -350 60 H I C CNN
+F2 "Capacitors:C0603" -50 -950 60 H I C CNN
+F3 "" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "490-12295-2-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Murata Electronics" -50 -650 60 H I C CNN "Manufacturer"
+F7 "GRT188C81E475KE13D" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 4.7UF 25V X6S 0603" -50 -850 60 H I C CNN "Description"
+F9 "4.7µF" -50 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "25V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
 DRAW
 P 2 0 1 0 -100 0 -90 0 N
 P 2 0 1 10 -85 75 -85 -75 N
@@ -565,31 +487,6 @@ P 3 1 1 0 -70 100 -70 0 -70 -100 N
 P 3 1 1 0 70 100 70 0 70 -100 N
 X 1 1 -200 0 100 R 50 50 1 1 I
 X 2 2 200 0 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Crystals_ABS25-32.768KHZ-6-T
-#
-DEF Crystals_ABS25-32.768KHZ-6-T XTAL 0 0 N N 1 F N
-F0 "XTAL" 0 200 60 H V C CNN
-F1 "Crystals_ABS25-32.768KHZ-6-T" 0 -200 60 H V C CNN
-F2 "Crystals:ABS25" 0 -900 60 H I C CNN
-F3 "http://www.abracon.com/Resonators/abs25.pdf" 0 -1000 60 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "535-10240-1-ND" 0 -500 60 H I C CNN "Supplier Part Number"
-F6 "Abracon LLC" 0 -600 60 H I C CNN "Manufacturer"
-F7 "ABS25-32.768KHZ-6-T" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "CRYSTAL 32.7680KHZ 6PF SMD" 0 -800 60 H I C CNN "Description"
-DRAW
-S -40 120 40 -120 1 1 10 f
-P 2 1 1 0 -100 0 -70 0 N
-P 2 1 1 0 100 0 70 0 N
-P 3 1 1 0 -70 100 -70 0 -70 -100 N
-P 3 1 1 0 70 100 70 0 70 -100 N
-X 1 1 -200 0 100 R 50 50 1 1 I
-X NC 2 -200 -100 100 R 50 30 1 1 N N
-X NC 3 200 -100 100 L 50 30 1 1 N N
-X 4 4 200 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1180,6 +1077,30 @@ X 2 2 200 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistors_RC0603JR-070RL
+#
+DEF Resistors_RC0603JR-070RL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "Resistors_RC0603JR-070RL" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-0.0GRTR-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603JR-070RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 0 OHM JUMPER 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "0" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "Jumper" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistors_RC0603JR-07100KL
 #
 DEF Resistors_RC0603JR-07100KL R 0 0 N N 1 F N
@@ -1193,6 +1114,30 @@ F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
 F7 "RC0603JR-07100KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "RES SMD 100K OHM 5% 1/10W 0603" 0 -800 60 H I C CNN "Description"
 F9 "100k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_RC0603JR-0710KP
+#
+DEF Resistors_RC0603JR-0710KP R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "Resistors_RC0603JR-0710KP" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "YAG1309TR-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603JR-0710KP" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 10K OHM 5% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "10k" 0 -70 50 H V C CNN "Resistance (Ohms)"
 F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
 F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
 DRAW
@@ -1265,6 +1210,30 @@ F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
 F7 "RC0603JR-07330RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "RES SMD 330 OHM 5% 1/10W 0603" 0 -800 60 H I C CNN "Description"
 F9 "330" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_RC0603JR-0733KL
+#
+DEF Resistors_RC0603JR-0733KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "Resistors_RC0603JR-0733KL" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-33KGRTR-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0603JR-0733KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 33K OHM 5% 1/10W 0603" 0 -800 60 H I C CNN "Description"
+F9 "33k" 0 -70 50 H V C CNN "Resistance (Ohms)"
 F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
 F11 "1/10W" 0 -140 50 H I C CNN "Puissance (Watts)"
 DRAW
@@ -1396,174 +1365,6 @@ X 2 2 200 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistors_RC0805JR-070RL
-#
-DEF Resistors_RC0805JR-070RL R 0 0 N N 1 F N
-F0 "R" 0 80 60 H V C CNN
-F1 "Resistors_RC0805JR-070RL" 0 -300 50 H I C CNN
-F2 "Resistors:R0805" 0 -900 30 H I C CNN
-F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "311-0.0ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
-F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
-F7 "RC0805JR-070RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "RES SMD 0.0 OHM JUMPER 1/8W 0805" 0 -800 60 H I C CNN "Description"
-F9 "0" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "0" 410 -80 50 H I C CNN "Tolerance (%)"
-F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
-DRAW
-S -120 0 -150 0 0 1 0 N
-S 150 0 120 0 0 1 0 N
-P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
-X 1 1 -200 0 50 R 50 50 1 1 P
-X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Resistors_RC0805JR-07100RL
-#
-DEF Resistors_RC0805JR-07100RL R 0 0 N N 1 F N
-F0 "R" 0 80 60 H V C CNN
-F1 "Resistors_RC0805JR-07100RL" 0 -300 50 H I C CNN
-F2 "Resistors:R0805" 0 -900 30 H I C CNN
-F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "311-100ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
-F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
-F7 "RC0805JR-07100RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "RES SMD 100 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
-F9 "100" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
-F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
-DRAW
-S -120 0 -150 0 0 1 0 N
-S 150 0 120 0 0 1 0 N
-P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
-X 1 1 -200 0 50 R 50 50 1 1 P
-X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Resistors_RC0805JR-0710KL
-#
-DEF Resistors_RC0805JR-0710KL R 0 0 N N 1 F N
-F0 "R" 0 80 60 H V C CNN
-F1 "Resistors_RC0805JR-0710KL" 0 -300 50 H I C CNN
-F2 "Resistors:R0805" 0 -900 30 H I C CNN
-F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "311-10KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
-F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
-F7 "RC0805JR-0710KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "RES SMD 10K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
-F9 "10k" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
-F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
-DRAW
-S -120 0 -150 0 0 1 0 N
-S 150 0 120 0 0 1 0 N
-P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
-X 1 1 -200 0 50 R 50 50 1 1 P
-X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Resistors_RC0805JR-071KL
-#
-DEF Resistors_RC0805JR-071KL R 0 0 N N 1 F N
-F0 "R" 0 80 60 H V C CNN
-F1 "Resistors_RC0805JR-071KL" 0 -300 50 H I C CNN
-F2 "Resistors:R0805" 0 -900 30 H I C CNN
-F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "311-1.0KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
-F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
-F7 "RC0805JR-071KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "RES SMD 1K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
-F9 "1k" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
-F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
-DRAW
-S -120 0 -150 0 0 1 0 N
-S 150 0 120 0 0 1 0 N
-P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
-X 1 1 -200 0 50 R 50 50 1 1 P
-X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Resistors_RC0805JR-0733KL
-#
-DEF Resistors_RC0805JR-0733KL R 0 0 N N 1 F N
-F0 "R" 0 80 60 H V C CNN
-F1 "Resistors_RC0805JR-0733KL" 0 -300 50 H I C CNN
-F2 "Resistors:R0805" 0 -900 30 H I C CNN
-F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "311-33KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
-F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
-F7 "RC0805JR-0733KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "RES SMD 33K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
-F9 "33k" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
-F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
-DRAW
-S -120 0 -150 0 0 1 0 N
-S 150 0 120 0 0 1 0 N
-P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
-X 1 1 -200 0 50 R 50 50 1 1 P
-X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Resistors_RC0805JR-07470RL
-#
-DEF Resistors_RC0805JR-07470RL R 0 0 N N 1 F N
-F0 "R" 0 80 60 H V C CNN
-F1 "Resistors_RC0805JR-07470RL" 0 -300 50 H I C CNN
-F2 "Resistors:R0805" 0 -900 30 H I C CNN
-F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "311-470ARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
-F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
-F7 "RC0805JR-07470RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "RES SMD 470 OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
-F9 "470" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
-F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
-DRAW
-S -120 0 -150 0 0 1 0 N
-S 150 0 120 0 0 1 0 N
-P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
-X 1 1 -200 0 50 R 50 50 1 1 P
-X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Resistors_RC0805JR-074K7L
-#
-DEF Resistors_RC0805JR-074K7L R 0 0 N N 1 F N
-F0 "R" 0 80 60 H V C CNN
-F1 "Resistors_RC0805JR-074K7L" 0 -300 50 H I C CNN
-F2 "Resistors:R0805" 0 -900 30 H I C CNN
-F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "311-4.7KARCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
-F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
-F7 "RC0805JR-074K7L" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "RES SMD 4.7K OHM 5% 1/8W 0805" 0 -800 60 H I C CNN "Description"
-F9 "4.7k" 0 -70 50 H V C CNN "Resistance (Ohms)"
-F10 "±5%" 200 -100 50 H I C CNN "Tolerance (%)"
-F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
-DRAW
-S -120 0 -150 0 0 1 0 N
-S 150 0 120 0 0 1 0 N
-P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
-X 1 1 -200 0 50 R 50 50 1 1 P
-X 2 2 200 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Resistors_RC1206JR-07120RL
 #
 DEF Resistors_RC1206JR-07120RL R 0 0 N N 1 F N
@@ -1579,6 +1380,30 @@ F8 "RES SMD 120 OHM 5% 1/4W 1206" 0 -800 60 H I C CNN "Description"
 F9 "120" 0 -70 50 H V C CNN "Resistance (Ohms)"
 F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
 F11 "1/4W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_RNCP0603FTD100R
+#
+DEF Resistors_RNCP0603FTD100R R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "Resistors_RNCP0603FTD100R" 0 -300 50 H I C CNN
+F2 "Resistors:R0603" 0 -900 30 H I C CNN
+F3 "" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "RNCP0603FTD100RTR-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Stackpole Electronics Inc" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RNCP0603FTD100R" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES 100 OHM 1% 1/8W 0603" 0 -800 60 H I C CNN "Description"
+F9 "100" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/8W" 0 -140 50 H I C CNN "Puissance (Watts)"
 DRAW
 S -120 0 -150 0 0 1 0 N
 S 150 0 120 0 0 1 0 N
