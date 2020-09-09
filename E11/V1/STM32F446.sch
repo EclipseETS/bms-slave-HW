@@ -746,79 +746,12 @@ $EndComp
 NoConn ~ -3100 2300
 NoConn ~ 900  5400
 NoConn ~ 900  5000
-Text Label 1300 7500 0    60   ~ 0
-USART2_TX
 Text Label 3700 4900 0    60   ~ 0
 PA3
 Wire Wire Line
 	4700 4900 3700 4900
-$Comp
-L Resistors:RC0603JR-074K7L R207
-U 1 1 58F95EAF
-P 2100 6600
-F 0 "R207" H 2100 6700 60  0000 C CNN
-F 1 "RC0805JR-074K7L" H 2100 6300 50  0001 C CNN
-F 2 "Resistors:R0603" H 2100 5700 30  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2100 5650 30  0001 C CNN
-F 4 "Digikey" H 2100 6200 60  0001 C CNN "Supplier"
-F 5 "311-4.7KGRTR-ND" H 2100 6100 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 2100 6000 60  0001 C CNN "Manufacturer"
-F 7 "RC0603JR-074K7L" H 2100 5900 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 4.7K OHM 5% 1/10W 0603" H 2100 5800 60  0001 C CNN "Description"
-F 9 "4.7k" H 2100 6530 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 2300 6500 50  0001 C CNN "Tolerance (%)"
-F 11 "1/10W" H 2100 6460 50  0001 C CNN "Puissance (Watts)"
-	1    2100 6600
-	1    0    0    -1  
-$EndComp
-Text Label 1300 6600 0    60   ~ 0
-USART2_RX
-Wire Wire Line
-	2300 6600 2400 6600
-Wire Wire Line
-	2300 7500 2500 7500
-$Comp
-L Power_Port:DGND #PWR0207
-U 1 1 58F96748
-P 2400 7200
-F 0 "#PWR0207" H 2400 7030 50  0001 C CNN
-F 1 "DGND" H 2400 7100 50  0000 C CNN
-F 2 "" H 2400 7300 60  0000 C CNN
-F 3 "" H 2380 7110 60  0000 C CNN
-	1    2400 7200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 7000 2400 7100
 Text Label 3700 4400 0    60   ~ 0
 PA2
-Text Label 2500 7500 0    60   ~ 0
-PA2
-Text Label 2500 6600 0    60   ~ 0
-PA3
-Wire Wire Line
-	1200 6600 1900 6600
-Wire Wire Line
-	1200 7500 1900 7500
-$Comp
-L Resistors:RC0603JR-071KL R211
-U 1 1 58F97B70
-P 2100 7500
-F 0 "R211" H 2100 7600 60  0000 C CNN
-F 1 "RC0805JR-071KL" H 2100 7200 50  0001 C CNN
-F 2 "Resistors:R0603" H 2100 6600 30  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2100 6550 30  0001 C CNN
-F 4 "Digikey" H 2100 7100 60  0001 C CNN "Supplier"
-F 5 "311-1.0KGRTR-ND" H 2100 7000 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 2100 6900 60  0001 C CNN "Manufacturer"
-F 7 "RC0603JR-071KL" H 2100 6800 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 1K OHM 5% 1/10W 0603" H 2100 6700 60  0001 C CNN "Description"
-F 9 "1k" H 2100 7400 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 2510 7420 50  0001 C CNN "Tolerance (%)"
-F 11 "1/10W" H 2100 7360 50  0001 C CNN "Puissance (Watts)"
-	1    2100 7500
-	1    0    0    -1  
-$EndComp
 $Comp
 L Diodes:150080VS75000 D201
 U 1 1 58F8F583
@@ -1017,19 +950,6 @@ Wire Notes Line
 	5200 6300 3100 6300
 Text Notes 3100 6300 0    60   ~ 0
 LED : BLINK, DEBUG, ASSERT
-Wire Wire Line
-	900  7000 1000 7000
-$Comp
-L Power_Port:DGND #PWR0204
-U 1 1 58F912A3
-P 1000 7100
-F 0 "#PWR0204" H 1000 6930 50  0001 C CNN
-F 1 "DGND" H 1000 7000 50  0000 C CNN
-F 2 "" H 1000 7200 60  0000 C CNN
-F 3 "" H 980 7010 60  0000 C CNN
-	1    1000 7100
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	500  6300 500  7800
 Wire Notes Line
@@ -1040,22 +960,6 @@ Wire Notes Line
 	2800 6300 500  6300
 Text Notes 1500 6300 0    60   ~ 0
 USART2
-$Comp
-L Connectors:Header_Male_Pin_2.54mm_1X3_,_Unshrouded J202
-U 1 1 58F8E26A
-P 800 7000
-F 0 "J202" H 750 7300 50  0000 C CNN
-F 1 "Header_Male_Pin_2.54mm_1X3_,_Unshrouded" H 800 6680 50  0001 C CNN
-F 2 "Connectors:Headers_2.54mm_1X3" H 800 6090 30  0001 C CNN
-F 3 "D" H 800 6040 30  0001 C CNN
-F 4 "Ebay" H 800 6490 60  0001 C CNN "Supplier"
-F 5 "Pin Male Single Row Pin Header Strip" H 800 6590 60  0001 C CNN "Supplier Part Number"
-F 6 "Manufacturer" H 800 6390 60  0001 C CNN "Manufacturer"
-F 7 "Manufacturer Part Number" H 800 6290 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Pin Male Single Row Pin Header Strip" H 800 6190 60  0001 C CNN "Description"
-	1    800  7000
-	1    0    0    -1  
-$EndComp
 Connection ~ 7400 2800
 Text Label 7100 3200 0    60   ~ 0
 CAN1_TX
@@ -1298,14 +1202,6 @@ F 8 "IC MCU 32BIT 512KB FLASH 64LQFP" H 5500 1700 60  0001 C CNN "Description"
 	1    5500 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1200 7500 1200 6900
-Wire Wire Line
-	1200 6900 900  6900
-Wire Wire Line
-	900  6800 1200 6800
-Wire Wire Line
-	1200 6800 1200 6600
 $Comp
 L Capacitors:885012106022 C204
 U 1 1 58FC121C
@@ -1352,28 +1248,6 @@ PA7
 Text HLabel 4000 3500 0    60   Input ~ 0
 NRST
 Wire Wire Line
-	2400 6700 2400 6600
-Connection ~ 2400 6600
-$Comp
-L Capacitors:885012006053 C215
-U 1 1 590A2D9C
-P 2400 6800
-F 0 "C215" V 2390 7020 60  0000 C CNN
-F 1 "885012007053" H 2350 6450 60  0001 C CNN
-F 2 "Capacitors:C0603" H 2350 5850 60  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/885012006053.pdf" H 2350 5750 60  0001 C CNN
-F 4 "Digikey" H 2350 6350 60  0001 C CNN "Supplier"
-F 5 "732-7995-2-ND" H 2350 6250 60  0001 C CNN "Supplier Part Number"
-F 6 "Wurth Electronics Inc." H 2350 6150 60  0001 C CNN "Manufacturer"
-F 7 "885012206077" H 2350 6050 60  0001 C CNN "Manufacturer Part Number"
-F 8 "CAP CER 22PF 50V X7R 0603" H 2350 5950 60  0001 C CNN "Description"
-F 9 "22pF" V 2310 7010 50  0000 C CNN "Capacitance (Farad)"
-F 10 "±5%" H 2610 6680 50  0001 C CNN "Tolerance (%)"
-F 11 "50V" H 2350 6610 50  0001 C CNN "Voltage Rated (Volt)"
-	1    2400 6800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
 	3100 4100 4300 4100
 Wire Wire Line
 	3100 4600 3300 4600
@@ -1417,8 +1291,6 @@ Wire Wire Line
 	9300 5400 9400 5400
 Wire Wire Line
 	4200 2900 4300 2900
-Wire Wire Line
-	2400 6600 2500 6600
 $Comp
 L Resistors:RC0603JR-0710KP R212
 U 1 1 5C43B4D8
@@ -1467,4 +1339,8 @@ Text Notes 2550 1900 0    100  ~ 0
 REMOVED
 NoConn ~ 4300 3100
 NoConn ~ 4300 3200
+Text Notes 1250 6900 0    100  ~ 0
+REMOVED
+NoConn ~ 3700 4900
+NoConn ~ 3700 4400
 $EndSCHEMATC

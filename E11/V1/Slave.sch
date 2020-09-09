@@ -854,108 +854,89 @@ Wire Wire Line
 Wire Wire Line
 	6300 1800 6500 1800
 $Comp
-L Resistors:RC0603JR-07470RL R105
-U 1 1 59A863F5
-P 4500 2650
-F 0 "R105" H 4500 2730 60  0000 C CNN
-F 1 "RC0603JR-07470RL" H 4500 2350 50  0001 C CNN
-F 2 "Resistors:R0603" H 4500 1750 30  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4500 1700 30  0001 C CNN
-F 4 "Digikey" H 4500 2250 60  0001 C CNN "Supplier"
-F 5 "311-470GRTR-ND" H 4500 2150 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 4500 2050 60  0001 C CNN "Manufacturer"
-F 7 "RC0603JR-07470RL" H 4500 1950 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 470 OHM 5% 1/10W 0603" H 4500 1850 60  0001 C CNN "Description"
-F 9 "470" H 4500 2580 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 4910 2570 50  0001 C CNN "Tolerance (%)"
-F 11 "1/10W" H 4500 2510 50  0001 C CNN "Puissance (Watts)"
-	1    4500 2650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Resistors:RC0603JR-07470RL R106
 U 1 1 59A87BD9
-P 5000 2650
-F 0 "R106" H 5000 2730 60  0000 C CNN
-F 1 "RC0603JR-07470RL" H 5000 2350 50  0001 C CNN
-F 2 "Resistors:R0603" H 5000 1750 30  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5000 1700 30  0001 C CNN
-F 4 "Digikey" H 5000 2250 60  0001 C CNN "Supplier"
-F 5 "311-470GRTR-ND" H 5000 2150 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 5000 2050 60  0001 C CNN "Manufacturer"
-F 7 "RC0603JR-07470RL" H 5000 1950 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 470 OHM 5% 1/10W 0603" H 5000 1850 60  0001 C CNN "Description"
-F 9 "470" H 5000 2580 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 5410 2570 50  0001 C CNN "Tolerance (%)"
-F 11 "1/10W" H 5000 2510 50  0001 C CNN "Puissance (Watts)"
-	1    5000 2650
+P 5000 2250
+F 0 "R106" H 5000 2330 60  0000 C CNN
+F 1 "RC0603JR-07470RL" H 5000 1950 50  0001 C CNN
+F 2 "Resistors:R0603" H 5000 1350 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5000 1300 30  0001 C CNN
+F 4 "Digikey" H 5000 1850 60  0001 C CNN "Supplier"
+F 5 "311-470GRTR-ND" H 5000 1750 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 5000 1650 60  0001 C CNN "Manufacturer"
+F 7 "RC0603JR-07470RL" H 5000 1550 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 470 OHM 5% 1/10W 0603" H 5000 1450 60  0001 C CNN "Description"
+F 9 "470" H 5000 2180 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 5410 2170 50  0001 C CNN "Tolerance (%)"
+F 11 "1/10W" H 5000 2110 50  0001 C CNN "Puissance (Watts)"
+	1    5000 2250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Resistors:RC0603JR-07470RL R107
 U 1 1 59A87EBB
-P 5500 2650
-F 0 "R107" H 5500 2730 60  0000 C CNN
-F 1 "RC0603JR-07470RL" H 5500 2350 50  0001 C CNN
-F 2 "Resistors:R0603" H 5500 1750 30  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5500 1700 30  0001 C CNN
-F 4 "Digikey" H 5500 2250 60  0001 C CNN "Supplier"
-F 5 "311-470GRTR-ND" H 5500 2150 60  0001 C CNN "Supplier Part Number"
-F 6 "Yageo" H 5500 2050 60  0001 C CNN "Manufacturer"
-F 7 "RC0603JR-07470RL" H 5500 1950 60  0001 C CNN "Manufacturer Part Number"
-F 8 "RES SMD 470 OHM 5% 1/10W 0603" H 5500 1850 60  0001 C CNN "Description"
-F 9 "470" H 5500 2580 50  0000 C CNN "Resistance (Ohms)"
-F 10 "±5%" H 5910 2570 50  0001 C CNN "Tolerance (%)"
-F 11 "1/10W" H 5500 2510 50  0001 C CNN "Puissance (Watts)"
-	1    5500 2650
+P 5300 2250
+F 0 "R107" H 5300 2330 60  0000 C CNN
+F 1 "RC0603JR-07470RL" H 5300 1950 50  0001 C CNN
+F 2 "Resistors:R0603" H 5300 1350 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5300 1300 30  0001 C CNN
+F 4 "Digikey" H 5300 1850 60  0001 C CNN "Supplier"
+F 5 "311-470GRTR-ND" H 5300 1750 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 5300 1650 60  0001 C CNN "Manufacturer"
+F 7 "RC0603JR-07470RL" H 5300 1550 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 470 OHM 5% 1/10W 0603" H 5300 1450 60  0001 C CNN "Description"
+F 9 "470" H 5300 2180 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 5710 2170 50  0001 C CNN "Tolerance (%)"
+F 11 "1/10W" H 5300 2110 50  0001 C CNN "Puissance (Watts)"
+	1    5300 2250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Power_Port:DGND #PWR0117
 U 1 1 59A8AD26
-P 4500 3050
-F 0 "#PWR0117" H 4500 2880 50  0001 C CNN
-F 1 "DGND" H 4500 2950 50  0000 C CNN
-F 2 "" H 4500 3150 60  0000 C CNN
-F 3 "" H 4480 2960 60  0000 C CNN
-	1    4500 3050
+P 4700 2650
+F 0 "#PWR0117" H 4700 2480 50  0001 C CNN
+F 1 "DGND" H 4700 2550 50  0000 C CNN
+F 2 "" H 4700 2750 60  0000 C CNN
+F 3 "" H 4680 2560 60  0000 C CNN
+	1    4700 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Power_Port:DGND #PWR0118
 U 1 1 59A8AFEC
-P 5000 3050
-F 0 "#PWR0118" H 5000 2880 50  0001 C CNN
-F 1 "DGND" H 5000 2950 50  0000 C CNN
-F 2 "" H 5000 3150 60  0000 C CNN
-F 3 "" H 4980 2960 60  0000 C CNN
-	1    5000 3050
+P 5000 2650
+F 0 "#PWR0118" H 5000 2480 50  0001 C CNN
+F 1 "DGND" H 5000 2550 50  0000 C CNN
+F 2 "" H 5000 2750 60  0000 C CNN
+F 3 "" H 4980 2560 60  0000 C CNN
+	1    5000 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Power_Port:DGND #PWR0119
 U 1 1 59A8B2B2
-P 5500 3050
-F 0 "#PWR0119" H 5500 2880 50  0001 C CNN
-F 1 "DGND" H 5500 2950 50  0000 C CNN
-F 2 "" H 5500 3150 60  0000 C CNN
-F 3 "" H 5480 2960 60  0000 C CNN
-	1    5500 3050
+P 5300 2650
+F 0 "#PWR0119" H 5300 2480 50  0001 C CNN
+F 1 "DGND" H 5300 2550 50  0000 C CNN
+F 2 "" H 5300 2750 60  0000 C CNN
+F 3 "" H 5280 2560 60  0000 C CNN
+	1    5300 2650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5500 2850 5500 2950
+	5300 2450 5300 2550
 Wire Wire Line
-	5000 2850 5000 2950
+	5000 2450 5000 2550
 Wire Wire Line
-	4500 2850 4500 2950
+	4700 2450 4700 2550
 Text Label 7800 3400 0    60   ~ 0
 ID_0
-Text Label 4500 2100 0    60   ~ 0
+Text Label 4700 2000 0    60   ~ 0
 ID_0
-Text Label 5000 2100 0    60   ~ 0
+Text Label 5000 2000 0    60   ~ 0
 ID_1
-Text Label 5500 2100 0    60   ~ 0
+Text Label 5300 2000 0    60   ~ 0
 ID_2
 Text Label 7800 2500 0    60   ~ 0
 ID_1
@@ -1008,15 +989,7 @@ F 8 "HEADER MALE DUAL ANGLE W/MNT 2P" H 5200 5200 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 1850 5500 1850
-Wire Wire Line
-	4850 1850 4500 1850
-Wire Wire Line
-	5500 1850 5500 2450
-Wire Wire Line
-	4500 1850 4500 2450
-Wire Wire Line
-	5000 1750 5000 2450
+	5150 1850 5300 1850
 $Comp
 L Switches:DIP_SW_3 SW101
 U 1 1 5ECAA56A
@@ -1079,4 +1052,31 @@ F 11 "25V" H 6050 4610 50  0001 C CNN "Voltage Rated (Volt)"
 	1    6100 4800
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Resistors:RC0603JR-07470RL R105
+U 1 1 59A863F5
+P 4700 2250
+F 0 "R105" H 4700 2330 60  0000 C CNN
+F 1 "RC0603JR-07470RL" H 4700 1950 50  0001 C CNN
+F 2 "Resistors:R0603" H 4700 1350 30  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4700 1300 30  0001 C CNN
+F 4 "Digikey" H 4700 1850 60  0001 C CNN "Supplier"
+F 5 "311-470GRTR-ND" H 4700 1750 60  0001 C CNN "Supplier Part Number"
+F 6 "Yageo" H 4700 1650 60  0001 C CNN "Manufacturer"
+F 7 "RC0603JR-07470RL" H 4700 1550 60  0001 C CNN "Manufacturer Part Number"
+F 8 "RES SMD 470 OHM 5% 1/10W 0603" H 4700 1450 60  0001 C CNN "Description"
+F 9 "470" H 4700 2180 50  0000 C CNN "Resistance (Ohms)"
+F 10 "±5%" H 5110 2170 50  0001 C CNN "Tolerance (%)"
+F 11 "1/10W" H 4700 2110 50  0001 C CNN "Puissance (Watts)"
+	1    4700 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 2050 4700 1850
+Wire Wire Line
+	5300 2050 5300 1850
+Wire Wire Line
+	4700 1850 4850 1850
+Wire Wire Line
+	5000 2050 5000 1750
 $EndSCHEMATC
