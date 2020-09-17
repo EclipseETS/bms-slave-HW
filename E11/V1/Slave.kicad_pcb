@@ -10443,7 +10443,7 @@
   )
 
   (module IC:SOT-23-3 (layer B.Cu) (tedit 58FAD44A) (tstamp 5943E917)
-    (at 190.5 131.572 90)
+    (at 190.754 131.826 90)
     (path /59465033)
     (fp_text reference Q101 (at 0.03 2.97 270) (layer B.SilkS)
       (effects (font (size 0.9652 0.9652) (thickness 0.2032)) (justify mirror))
